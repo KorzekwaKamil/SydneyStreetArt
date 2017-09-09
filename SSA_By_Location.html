@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sydney Street Art</title>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="Styles.css">
+</head>
+
+<body onresize="choose_orientation()" onload="choose_orientation()">
+
+	<script>window.addEventListener("orientationchange", choose_orientation(), false);</script>
+	<script src="Choose_Orientation.js"></script>
+
+	<div id="right_margin" class="external_margin" style="float:right;"></div>	
+		
+	<div id="graffiti_canvas" class="graffiti_canvas_horizontal">
+		<div style="display:table;height:100%;width:100%"><div id="info_text_canvas" style="display:table-cell;text-align:center;vertical-align:middle;font-size:2.5vmax">Click on location to see street art nearby</div></div>
+		<script>
+			function open_new_tab() {
+				window.open(document.getElementById('graffiti').src);
+			}
+		</script>
+	</div>
+	
+	<div id="middle_margin" class="middle_margin" style="float:right"></div>
+	
+	<div id="map_canvas" class="map_canvas_horizontal">
+		<script src="Map_Init.js"></script>
+	    <script src="markerclusterer.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_BUk98XAiUAWE83JtAYyOgsXPG6uj3Jg&callback=initMap" async defer></script>
+		<script src='data.js'></script>
+	</div>
+	
+	<div id="left_margin" class="external_margin" style="float:right;"></div>
+	
+	<div id="footer_left" class="footer" style="width:42%">
+		<button id="group_button" class="nav_buttons" onclick="group()">Ungroup locations</button>
+	</div>
+		
+	<div id="footer_separator1" class="footer" style="width:0%;"></div>
+	
+	<div id="footer_middle" class="footer" style="width:28.5%;">
+		<button id="previous_button" class="nav_buttons" onclick="previous_image()" style="display:none;float:right")>Previous image</button>
+	</div>
+
+	<div id="footer_separator2" class="footer" style="width:1%;"></div>
+
+	<div id="footer_right" class="footer" style="width:28.5%">
+		<button id="next_button" class="nav_buttons" onclick="next_image()" style="display:none;float:left")>Next image</button>
+	</div>
+	
+	<script src="Group_Markers.js">	</script>
+	<script src="Navigate_Images.js"></script> 
+	
+</body>
+</html>

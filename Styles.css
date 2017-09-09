@@ -1,0 +1,251 @@
+		@font-face {
+			font-family: graffiti_font;
+			src: url("Fonts/PaintCans.ttf");
+		}
+		
+		html, body {
+			height: 100%;
+			width: 100%;
+			margin: 0;
+			padding: 0;	
+			margin: 0;
+			background-color: black;
+		}
+
+		header {
+			height:10vh;
+			text-align: center;
+			font-family: graffiti_font;
+			font-size:4.5vmin;
+			font-weight:bold;
+			color: black;
+			background-color: white;
+		}
+		
+		#top_menu {
+			height:7.5vh;
+			text-align: center;
+			padding: 1.5vmin 1.5vmin;
+			background-color: black;
+			color: white;
+		}
+		
+		.top_menu_links {
+			width:100%;
+			table-layout:fixed;
+			font-size: calc(2.5vmin + 0.3vw); 
+			border:0.6vmin solid white;
+			border-radius:1vmin;
+		}
+		
+		.top_menu_links a {
+			color:white;
+			text-decoration: none;
+		}
+		
+		.top_menu_links a:hover {
+			font-size:calc(2.3vmin + 0.2vw);
+			transition:font-size 0.2s;
+		}
+		
+		#main_frame {
+			width:100%;
+			height:78vh;
+			border:none;
+			margin:0;
+		}
+		
+		.external_margin {
+			height: 90vh;
+			width: 1.5%;
+			margin: 0;
+			background-color: black;
+		}
+		
+		.empty_margin {
+			height: 90vh;
+			width: 0%;
+			margin: 0;
+			background-color: black;
+		}
+		
+		.middle_margin {
+			float: left;
+			height: 90vh;
+			width: 1%;
+			margin: 0;
+			background-color: black;
+		}
+		
+		.map_canvas_horizontal {
+			float: right;
+			height: 90vh;
+			width: 40%;
+			margin: 0;
+			background-color: black;
+			color:white;
+		}
+		
+		.map_canvas_vertical {
+			float: left;
+			height: 45vh;
+			width: 100%;
+			margin: 0;
+			background-color: black;
+			color:white;
+		}
+		
+		.graffiti_canvas_horizontal {
+			float: right;
+			height: 90vh;
+			width: 56%;
+			line-height:90vh;
+			text-align:center;
+			margin: 0;
+			background-color: black;
+			color: white;	
+		}
+		
+		.graffiti_canvas_vertical {
+			float: left;
+			height: 45vh;
+			width: 100%;
+			line-height:40vh;
+			text-align:center;
+			margin: 0;
+			background-color: black;
+			color: white;	
+		}
+		
+		.graffiti_canvas_horizontal img {
+			max-width:100%;
+			max-height:100%;
+			vertical-align:middle;
+			width: auto;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto;
+		}		
+
+		.graffiti_canvas_vertical img {
+			max-width:100%;
+			max-height:100%;
+			vertical-align:middle;
+			width: auto;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto;
+		}	
+		
+		.footer {
+			float: left;
+			height: 5vh;
+			margin: 0;
+			background-color: black;
+			color:white;
+			padding-top:2vh;
+		}
+		
+		.nav_buttons {
+			background-color: black;
+			border: 0.35vmin solid white;
+			color: white;
+			padding: 1vmin;
+			text-align: center;
+			text-decoration: none;
+			font-weight:bold;
+			font-size: 2.6vmin;
+			cursor:pointer;
+			border-radius:1.3vmin;
+			outline:none;
+			display:block;
+			margin:0 auto;
+			transition:background-color 0.5s;
+		}
+
+		.nav_buttons:hover {
+			background-color: #333333;
+		}
+		
+		#gallery_canvas {
+			display:block;
+			vertical-align:middle;
+			overflow-x: hidden;
+			overflow-y:auto;
+			float: left;
+			height: 90vh;
+			width: 100%;
+			margin: auto;
+			background-color: black;
+			color:white;
+			font-size:100px;
+			text-align:center;			
+		}
+		
+		#gallery_canvas img {
+			display:inline-block;
+			vertical-align:middle;
+			cursor:pointer;
+			max-width:44%;
+			max-height:44%;
+			width: auto;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: auto;
+			margin-bottom: 3vh;
+		}
+		
+		#gallery_canvas img:hover {
+			transform:scale(1.1,1.1);
+			transition:transform 0.3s;
+		}
+		
+		.about_text_canvas_horizontal {
+			display:table;
+			float: left;
+			height: 90vh;
+			width: 56%;
+			text-align:center;
+			margin: auto;
+			background-color: black;
+			color: white;				
+		}
+		
+		.about_text_canvas_vertical {
+			display:table;
+			float: left;
+			height: 55vh;
+			width: 99%;
+			text-align:center;
+			margin: 0;
+			background-color: black;
+			color: white;				
+		}
+		
+		.about_photo_canvas_horizontal {
+			float: right;
+			height: 90vh;
+			width: 40%;
+			margin: 0;
+			background-color: black;
+			color:white;
+			line-height:90vh;
+			text-align:center;
+			float:left;
+		}
+		
+		.about_photo_canvas_vertical {
+			float: left;
+			height: 35vh;
+			width: 99%;
+			margin: 0;
+			background-color: black;
+			color:white;
+			line-height:0vh;
+			text-align:center;
+			float:left;
+		}
+		
+		
+
