@@ -41,11 +41,11 @@
 		.top_menu_links a {
 			color:white;
 			text-decoration: none;
+			transition:font-size 0.2s;
 		}
 		
 		.top_menu_links a:hover {
 			font-size:calc(2.3vmin + 0.2vw);
-			transition:font-size 0.2s;
 		}
 		
 		#main_frame {
@@ -194,11 +194,11 @@
 			margin-right: auto;
 			margin-top: auto;
 			margin-bottom: 3vh;
+			transition:transform 0.3s;
 		}
 		
 		#gallery_canvas img:hover {
 			transform:scale(1.1,1.1);
-			transition:transform 0.3s;
 		}
 		
 		.about_text_canvas_horizontal {
