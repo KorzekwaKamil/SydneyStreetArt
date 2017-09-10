@@ -5,12 +5,10 @@ async function next_image() {
 	if (current_image==number_of_images) {
 		current_image=1;
 		image_handle.src = "Photos\\"+current_image_name;
-		image_handle.style.WebkitFilter="blur(0px)";
 	}
 	else if (current_image<9) {
 		current_image=current_image+1;
 		image_handle.src = "Photos\\"+fileNameWithOutExt+"_0"+current_image+".jpg";
-		image_handle.style.WebkitFilter="blur(0px)";
 	}
 	else {
 		current_image=current_image+1;
