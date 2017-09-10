@@ -1,7 +1,7 @@
-function next_image() {
+async function next_image() {
 	var fileNameWithOutExt = current_image_name.substring(0,current_image_name.lastIndexOf('.'));
 	var image_handle=document.getElementById('graffiti');
-	image_handle.style.WebkitFilter="blur(10px)";
+	let temp=await blur(image_handle);
 	if (current_image==number_of_images) {
 		current_image=1;
 		image_handle.src = "Photos\\"+current_image_name;
@@ -33,4 +33,9 @@ function previous_image() {
 		image_handle.src = "Photos\\"+fileNameWithOutExt+"_"+current_image+".jpg";
 	}
 	image_handle.style.WebkitFilter="blur(0px)";
+}
+
+function blur(image_handle) {
+	image_handle.style.WebkitFilter="blur(10px)";
+	return 0;	
 }
