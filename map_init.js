@@ -52,6 +52,7 @@ function addMarkerToMap(latit, longit, image_name,image_number){
 				document.getElementById('graffiti_canvas').innerHTML = '<img id="graffiti" src="" style="cursor:pointer" height="100%" width="100%" onclick="open_new_tab()" onload="reset_filter()">';
 				first_time_select=1;
 			}
+			document.getElementById('graffiti').style.WebkitFilter="blur(10px)";
 			indicator_marker.setPosition(new google.maps.LatLng(latit, longit));
 			indicator_marker.setVisible(true);
 					
