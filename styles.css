@@ -125,6 +125,7 @@
 			height: auto;
 			margin-left: auto;
 			margin-right: auto;
+			transition:transform 0.1s;
 		}		
 
 		.graffiti_canvas_vertical img {
@@ -135,6 +136,7 @@
 			height: auto;
 			margin-left: auto;
 			margin-right: auto;
+			transition:transform 0.1s;			
 		}	
 		
 		.footer {
