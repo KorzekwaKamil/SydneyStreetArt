@@ -2,7 +2,7 @@ async function next_image() {
 	var fileNameWithOutExt = current_image_name.substring(0,current_image_name.lastIndexOf('.'));
 	var image_handle=document.getElementById('graffiti');
 	let temp=await blur(image_handle);
-	if (temp==0) {
+	if (temp=="blur(10px)") {
 	if (current_image==number_of_images) {
 		current_image=1;
 		image_handle.src = "Photos\\"+current_image_name;
@@ -38,5 +38,5 @@ function previous_image() {
 
 function blur(image_handle) {
 	image_handle.style.WebkitFilter="blur(10px)";
-	return 0;	
+	return image_handle.style.WebkitFilter;	
 }
