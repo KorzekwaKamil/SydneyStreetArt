@@ -49,7 +49,7 @@ function addMarkerToMap(latit, longit, image_name,image_number){
 	google.maps.event.addListener(current_marker, 'click', (function(marker, marker_count) { 
 		return function() { 
 			if (first_time_select==0) {
-				document.getElementById('graffiti_canvas').innerHTML = '<img id="graffiti" src="" style="cursor:pointer" height="100%" width="100%" onclick="open_new_tab()">';
+				document.getElementById('graffiti_canvas').innerHTML = '<img id="graffiti" src="" style="cursor:pointer" height="100%" width="100%" onclick="open_new_tab()" onload="reset_filter()">';
 				first_time_select=1;
 			}
 			indicator_marker.setPosition(new google.maps.LatLng(latit, longit));
