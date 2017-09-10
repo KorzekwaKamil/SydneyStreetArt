@@ -15,7 +15,7 @@ async function next_image() {
 		current_image=current_image+1;
 		image_handle.src = "Photos\\"+fileNameWithOutExt+"_"+current_image+".jpg";
 	}
-	image_handle.style.WebkitFilter="blur(0px)";}
+	}
 }
 		
 function previous_image() {
