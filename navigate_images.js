@@ -1,8 +1,6 @@
 async function next_image() {
 	var fileNameWithOutExt = current_image_name.substring(0,current_image_name.lastIndexOf('.'));
 	var image_handle=document.getElementById('graffiti');
-	let temp=await blur(image_handle);
-	if (temp=="blur(10px)") {
 	if (current_image==number_of_images) {
 		current_image=1;
 		image_handle.src = "Photos\\"+current_image_name;
@@ -14,7 +12,6 @@ async function next_image() {
 	else {
 		current_image=current_image+1;
 		image_handle.src = "Photos\\"+fileNameWithOutExt+"_"+current_image+".jpg";
-	}
 	}
 }
 		
