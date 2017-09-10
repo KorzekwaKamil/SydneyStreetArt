@@ -38,5 +38,6 @@ function previous_image() {
 
 function blur(image_handle) {
 	image_handle.style.WebkitFilter="blur(10px)";
+	console.log(image_handle.offsetHeight);
 	return image_handle.style.WebkitFilter;	
 }
