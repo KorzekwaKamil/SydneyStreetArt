@@ -14,6 +14,7 @@ async function next_image() {
 		current_image=current_image+1;
 		image_handle.src = "Photos\\"+fileNameWithOutExt+"_"+current_image+".jpg";
 	}
+	image_handle.style.WebkitFilter="blur(0px)";
 }
 		
 function previous_image() {
@@ -35,6 +36,6 @@ function previous_image() {
 }
 
 function blur(image_handle) {
-	image_handle.style.WebkitFilter="grayscale(100%)";
+	image_handle.style.WebkitFilter="blur(10px)";
 	return 0;
 }
