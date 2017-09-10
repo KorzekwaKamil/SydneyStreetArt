@@ -209,7 +209,8 @@
 			text-align:center;
 			margin: auto;
 			background-color: black;
-			color: white;				
+			color: white;		
+			font-size:calc(1.8vh + 0.7vw);			
 		}
 		
 		.about_text_canvas_vertical {
@@ -220,7 +221,8 @@
 			text-align:center;
 			margin: 0;
 			background-color: black;
-			color: white;				
+			color: white;	
+			font-size:calc(1.2vh + 1.1vw);			
 		}
 		
 		.about_photo_canvas_horizontal {
