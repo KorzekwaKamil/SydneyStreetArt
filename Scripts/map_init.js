@@ -2,7 +2,7 @@ var all_markers=[];
 var marker_count=0;
 var current_marker;
 var indicator_marker;
-var group_markers=1;
+var group_markers=0;
 var first_time_select=0;
 		
 var number_of_images=0;
