@@ -5,61 +5,50 @@
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="styles.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
 
-<body onresize="choose_orientation_about()" onload="orientation_and_visibility()">
+<body onresize="choose_orientation_about()" onload="orientation_and_visibility()" style="overflow:hidden">
 	
 	<script>
 		function orientation_and_visibility() {
-			choose_orientation_about();
-			document.getElementById("about_text_canvas").style.visibility="visible";
+	        choose_orientation_about();
+            window.addEventListener("orientationchange", choose_orientation_about(), false);	
+            document.getElementById("about_text_canvas").style.visibility="visible";
 			document.getElementById("about_photo_canvas").style.visibility="visible";
 			document.getElementById("central_footer").style.visibility="visible";
 		}
 	</script>
 	
-	<script>window.addEventListener("orientationchange", choose_orientation_about(), false);</script>
-	<script src="Scripts/choose_orientation.js"></script>
 	
-	<div id="left_margin" class="external_margin" style="float:left;"></div>
+	<script src="scripts/choose_orientation.js"></script>
+	
+	<div id="left_margin" class="external_margin" style="float:left;height:90%"></div>
 
 	<div id="about_text_canvas" class="about_text_canvas_horizontal" style="visibility:hidden">
 		<div style="display:table-cell;text-align:center;vertical-align:middle;">
 			<p><b>Past and present</b><p>
 			<p>
-				
-				I moved to Sydney in January 2017 for a postdoc in quantum information theory. During my first few days here I stayed in Camperdown, where I was exposed to the incredible richness of this city's street art scene. As I encountered more and more of these amazing paintings and murals I decided to start a project to document them. Their fragile and temporary nature makes it particularly important that we keep a record of this part of the city's evolving art heritage. Since then, street art hunts have become my way to explore this extraordinary city: roughly every couple of weeks I go on a long walk to a new suburb and, armed with my mobile, look for new pieces.	
-				
-				
+				I came to Sydney in January 2017 for a postdoc in quantum information theory. During my first few days here I stayed in Camperdown, where I was immediately exposed to the incredible richness of this city's street art scene. Encountering more and more amazing works around every corner, I felt that these fragile and temporary artworks should somehow be preserved and catalogued, so I decided to start this project. Since then street art hunts have become my way to explore this extraordinary city: every couple of weeks or so I go on a long walk to a new suburb and, armed with my mobile, look for new pieces.				  
 			</p>
 			<p><b>Future</b><p>
 			<p>
-				I’m planning to stay in Sydney until at least 2019. By then I hope to have covered most of the central suburbs. I’d also love to go beyond just documenting them and start collecting information about and promoting the artists responsible for the works. Additionally, I plan to keep developing the functionality of the website (maybe even creating an independent mobile app). If you are interested in joining the project and helping me in any way (or if you want to start a similar project in your own city) then please contact me.
+				I am planning to stay in Sydney until at least 2019, and I hope that by then the project can enter its mature phase. There are three main areas of development I want to focus on: taking new photographs to cover most central suburbs, collecting information and promoting artists responsible for the works presented here, and developing the functionality of the website (maybe even creating an independent mobile app). If you are interested in joining the project and helping me in any way (or if you want to start a similar project in your own city) then please contact me.
 			</p>
 		</div>
 	</div>
 	
-	<div id="middle_margin" class="middle_margin" style="float:left;"></div>
+	<div id="middle_margin" class="middle_margin" style="float:left;height:90%;"></div>
 		
 	<div id="about_photo_canvas" class="about_photo_canvas_horizontal" style="visibility:hidden">
-		<img style="max-height:100%;max-width:100%;vertical-align:middle" src="Photos/about.jpg">
+		<img style="max-height:100%;max-width:100%;vertical-align:middle;border-radius:2vmin;" src="graphics/about.jpg">
 	</div>
 		
-	<div id="right_margin" class="external_margin" style="float:left;"></div>
+	<div id="right_margin" class="external_margin" style="float:left;height:90%;"></div>
 	
-	
-	<div id="central_footer" class="footer" style="width:100%;text-align:center;visibility:hidden">
-    
-		<div style="display:inline;">
-			<img style="max-height:100%;max-width:100%;vertical-align:middle;cursor:pointer" src="Markers/fb-art.png" onclick='window.open("https://www.facebook.com/SydneyGraffitis/")'>
-		</div>
-		<div id="texts" style="display:inline; white-space:nowrap;font-size:4.5vmin;vertical-align:middle"> 
-			&nbsp;Email: korzekwa.kamil@gmail.com
-		</div>
-
-	</div>​
-		
+	<div id="central_footer" class="footer" style="width:100%;visibility:hidden">
+	<div style="display:table;height:100%;width:100%"><div style="display:table-cell;text-align:center;vertical-align:middle;font-size:4.5vmin;">Contact: korzekwa.kamil@gmail.com</div></div>
+	</div>
 
 	</body>
 </html>
