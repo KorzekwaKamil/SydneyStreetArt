@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Sydney Street Art</title>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+</head>
+
+<body onresize="orientation()" onload="get_data()" style="position:relative;overflow:hidden">
+
+
+    <script>
+        function get_data() {
+            orientation();
+            window.addEventListener("orientationchange", orientation(), false);
+            
+            var data_xml = new XMLHttpRequest();
+            var graffiti_id=getQueryVariable("id");
+            
+            data_xml.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    var graffitis=data_xml.responseXML.getElementsByTagName("graffiti");
+                    graffiti=graffitis[graffiti_id];
+                    
+                    path=graffiti.getElementsByTagName("full_path")[0].childNodes[0].nodeValue;
+                    date=graffiti.getElementsByTagName("date")[0].childNodes[0].nodeValue;
+                    lat=graffiti.getElementsByTagName("gps_lat")[0].childNodes[0].nodeValue;
+                    lon=graffiti.getElementsByTagName("gps_lon")[0].childNodes[0].nodeValue;
+                    photo_by=graffiti.getElementsByTagName("photographer")[0].childNodes[0].nodeValue;                                
+                    suburb=graffiti.getElementsByTagName("suburb")[0].childNodes[0].nodeValue;                                
+                                        
+                    temp1=graffiti.getElementsByTagName("artist")[0].childNodes;
+                    if (temp1.length>0) {artist=temp1[0].nodeValue;}
+                    else {artist="Unknown";}
+                    temp2=graffiti.getElementsByTagName("title")[0].childNodes;
+                    if (temp2.length>0) {title=temp2[0].nodeValue;}
+                    else {title="Graffiti #"+graffiti_id;}
+                    temp3=graffiti.getElementsByTagName("status")[0].childNodes;
+                    if (temp3.length>0) {status=temp3[0].nodeValue;}
+                    else {status="OK";}
+                         
+                    location_link='https://www.google.com/maps/embed/v1/place?key=AIzaSyC_BUk98XAiUAWE83JtAYyOgsXPG6uj3Jg&q='+lat+'%2C'+lon;
+                    document.getElementById("map_frame").src=location_link;
+                    document.getElementById("graffiti").src=path;
+                    
+                    document.getElementById("data_title").innerHTML="&nbsp"+title;
+                    document.getElementById("data_artist").innerHTML="&nbsp"+artist;
+                    document.getElementById("data_suburb").innerHTML="&nbsp"+suburb;
+                    document.getElementById("data_date").innerHTML="&nbsp"+date;
+                    document.getElementById("data_photographer").innerHTML="&nbsp"+photo_by;
+                    if (status!="OK") {
+                        document.getElementById("graffiti_data").innerHTML=document.getElementById("graffiti_data").innerHTML+'<tr><th style="text-align:right">Status:&nbsp</th><th style="text-align:left">&nbsp'+status+'</th></tr>';
+                    }                                         
+                };
+            }
+            data_xml.open("GET", "data/data.xml", true);
+            data_xml.send();
+        }		
+			
+	</script>
+
+	<script>
+		function getQueryVariable(variable)
+		{
+			var query = window.location.search.substring(1);
+			var vars = query.split("&");
+			for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+			}
+			return(false);
+		}
+	</script>
+    
+	<script>
+		function orientation() {
+        if (window.innerHeight > 0.75*window.innerWidth) {
+                document.getElementById("text_border").style="position:absolute;top:64%;left:1%;height:35%;width:48.5%;font-size:calc(1.1vh + 1.1vw);border:0.4vmin solid white;border-radius:1vmin;";
+                document.getElementById("graffiti_border").style="position:absolute;top:1%;left:1%;height:62%;width:98%;border:0.4vmin solid white;border-radius:1vmin;";
+                document.getElementById("single_graffiti_canvas").style="position:relative;top:1%;left:1%;height:98%;width:98%;line-height:60vh;text-align:center;margin:0;";
+                document.getElementById("map_border").style="position:absolute;top:64%;left:50.5%;height:35%;width:48.5%;border:0.4vmin solid white;border-radius:1vmin;";
+			}
+			else if (window.innerHeight > 0.25*window.innerWidth) {
+				document.getElementById("text_border").style="position:absolute;top:1%;left:1%;height:48.5%;width:25%;font-size:calc(0.9vw + 1.1vh);border:0.4vmin solid white;border-radius:1vmin;";
+                document.getElementById("graffiti_border").style="position:absolute;top:1%;left:27%;height:98%;width:72%;border:0.4vmin solid white;border-radius:1vmin;";
+                document.getElementById("single_graffiti_canvas").style="position:relative;top:1%;left:1%;height:98%;width:98%;line-height:96vh;text-align:center;margin:0;";
+                document.getElementById("map_border").style="position:absolute;top:50.5%;left:1%;height:48.5%;width:25%;border:0.4vmin solid white;border-radius:1vmin;";                 
+            }    
+            else {
+				document.getElementById("text_border").style="position:absolute;top:1%;left:1%;height:48.5%;width:25%;font-size:calc(4.5vh);border:0.4vmin solid white;border-radius:1vmin;";
+                document.getElementById("graffiti_border").style="position:absolute;top:1%;left:27%;height:98%;width:72%;border:0.4vmin solid white;border-radius:1vmin;";
+                document.getElementById("single_graffiti_canvas").style="position:relative;top:1%;left:1%;height:98%;width:98%;line-height:96vh;text-align:center;margin:0;";
+                document.getElementById("map_border").style="position:absolute;top:50.5%;left:1%;height:48.5%;width:25%;border:0.4vmin solid white;border-radius:1vmin;";                 
+            }
+                document.getElementById("map_frame").src=document.getElementById("map_frame").src; 
+        }
+	</script>
+    
+    <div id="text_border" style="position:absolute;top:1%;left:1%;height:48.5%;width:25%;font-size:3vh;border:0.4vmin solid white;border-radius:1vmin;">
+        <div id="text_canvas" style="width:100%;position:absolute;top:50%;transform:translate(0%,-50%);">
+            <table id="graffiti_data" >
+                <tr>
+                    <th style="text-align:right">Title:&nbsp</th><th style="text-align:left" id="data_title"></th>
+                </tr>
+                <tr>
+                    <th style="text-align:right">Artist:&nbsp</th><th style="text-align:left" id="data_artist"></th>
+                </tr>
+                <tr>
+                    <th style="text-align:right">Suburb:&nbsp</th><th style="text-align:left" id="data_suburb"></th>
+                </tr>
+                <tr>
+                    <th style="text-align:right">Date:&nbsp</th><th style="text-align:left" id="data_date"></th>
+                </tr>
+                <tr>
+                    <th style="text-align:right">Photo by:&nbsp</th><th style="text-align:left" id="data_photographer"></th>
+                </tr>
+            </table>
+        </div>
+    </div>
+     
+    <div  id="graffiti_border" style="position:absolute;top:1%;left:27%;height:98%;width:72%;font-size:3vh;border:0.4vmin solid white;border-radius:1vmin;">
+        <div id="single_graffiti_canvas" style="position:relative;top:1%;left:1%;height:98%;width:98%;line-height:96vh;text-align:center;margin:0;">
+            <img id="graffiti" src="" style="max-width:100%;max-height:100%;vertical-align:middle;width:auto;height:auto;border-radius:2vmin;">
+        </div>
+    </div>     
+
+
+    <div id="map_border" style="position:absolute;top:50.5%;left:1%;height:48.5%;width:25%;font-size:3vh;border:0.4vmin solid white;border-radius:1vmin;">
+        <div id="single_map_canvas" style="position:relative;top:1%;left:1%;height:98%;width:98%;">
+                <iframe id="map_frame" src="" style="width:100%;height:100%;border:none;margin:0;">
+                </iframe>
+        </div>   
+    </div>	
+	
+</body>
+</html>
+
+</body>
+</html>
