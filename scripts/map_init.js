@@ -23,8 +23,7 @@ function initMap() {
 	var map = new google.maps.Map(map_canvas, map_options);			
 					
 	loadMarkers();
-    document.getElementById("map_group_button").style.visibility="visible";
-    document.getElementById("map_group_button").onclick=group;
+	document.getElementById("map_group_button").onclick=group;
     
 	if (group_markers==1){var markerCluster = new MarkerClusterer(map, all_markers,{imagePath: 'graphics/m'});}
 	  
