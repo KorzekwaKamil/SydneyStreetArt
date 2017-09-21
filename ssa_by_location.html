@@ -11,11 +11,10 @@
 </head>
 
 <body onresize="choose_orientation()" onload="orientation_and_visibility()" style="overflow:hidden">
-    
+
     <script>var exists=1;</script>
     <script src="scripts/map_init.js"></script>
     <script src="scripts/markerclusterer.js"></script>
-    <script src='scripts/load_markers.js'></script>	
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_BUk98XAiUAWE83JtAYyOgsXPG6uj3Jg&callback=initMap" async defer></script>
 	
 	<script src="scripts/choose_orientation.js"></script>
@@ -31,28 +30,24 @@
 
 	<div id="right_margin" class="external_margin" style="float:right;"></div>	
 		
-	<div id="graffiti_canvas" class="graffiti_canvas_horizontal" style="visibility:hidden">
-		
-                     
+	<div id="graffiti_canvas" class="graffiti_canvas_horizontal" style="visibility:hidden">                   
         <div class="graffiti_buttons" style="right:2.5%;visibility:hidden;">
             <img id="next_button" src="graphics/next.png" onclick="next_image()">
         </div>
         <div class="graffiti_buttons" style="left:2.5%;visibility:hidden;">
             <img id="previous_button" src="graphics/previous.png" onclick="previous_image()">
         </div>
-        
-        <div id="info_text">Click on location to see street art nearby</div>
+        <div id="info_text">Click on location to see street art nearby</div>       
         <img id="graffiti" src="" style="cursor:pointer" height="100%" width="100%" onload="reset_filter()">
-	</div>
+    </div>
 	
 	<div id="middle_margin" class="middle_margin_horizontal" style="float:right"></div>
 	
     <div id="map_container" class="map_container_horizontal" style="visibility:hidden">
         <div id="map_canvas">
-
         </div>
-        <button id="map_group_button" onclick="group()" style="top:10px;right:8px">&nbsp Group &nbsp </button>
-    </div> 
+        <button id="map_group_button" style="top:10px;right:8px">&nbsp Group &nbsp </button>
+   </div> 
 	
     <div id="left_margin" class="external_margin" style="float:right;"></div>
 	
@@ -63,9 +58,7 @@
 		}
 	</script>
 	
-	<script src="scripts/group_markers.js">	</script>
 	<script src="scripts/navigate_images.js"></script> 
-	
-	
+
 </body>
 </html>
