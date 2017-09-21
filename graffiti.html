@@ -78,27 +78,25 @@
     
 	<script>
 		function orientation() {
-        if (window.innerHeight > 0.75*window.innerWidth) {
+            if (window.innerHeight > 0.75*window.innerWidth) {
                 document.getElementById("text_border").style="position:absolute;top:64%;left:1%;height:35%;width:48.5%;font-size:calc(1.1vh + 1.1vw);border:0.4vmin solid white;border-radius:1vmin;";
                 document.getElementById("graffiti_border").style="position:absolute;top:1%;left:1%;height:62%;width:98%;border:0.4vmin solid white;border-radius:1vmin;";
-                document.getElementById("single_graffiti_canvas").style="position:relative;top:1%;left:1%;height:98%;width:98%;line-height:60vh;text-align:center;margin:0;";
+                document.getElementById("single_graffiti_canvas").style="position:relative;top:1%;left:1%;height:98%;width:98%;";
                 document.getElementById("map_border").style="position:absolute;top:64%;left:50.5%;height:35%;width:48.5%;border:0.4vmin solid white;border-radius:1vmin;";
 			}
 			else if (window.innerHeight > 0.25*window.innerWidth) {
 				document.getElementById("text_border").style="position:absolute;top:1%;left:1%;height:48.5%;width:25%;font-size:calc(0.9vw + 1.1vh);border:0.4vmin solid white;border-radius:1vmin;";
                 document.getElementById("graffiti_border").style="position:absolute;top:1%;left:27%;height:98%;width:72%;border:0.4vmin solid white;border-radius:1vmin;";
-                document.getElementById("single_graffiti_canvas").style="position:relative;top:1%;left:1%;height:98%;width:98%;line-height:96vh;text-align:center;margin:0;";
+                document.getElementById("single_graffiti_canvas").style="position:relative;top:1%;left:1%;height:98%;width:98%;";
                 document.getElementById("map_border").style="position:absolute;top:50.5%;left:1%;height:48.5%;width:25%;border:0.4vmin solid white;border-radius:1vmin;";                 
             }    
             else {
 				document.getElementById("text_border").style="position:absolute;top:1%;left:1%;height:48.5%;width:25%;font-size:calc(4.5vh);border:0.4vmin solid white;border-radius:1vmin;";
                 document.getElementById("graffiti_border").style="position:absolute;top:1%;left:27%;height:98%;width:72%;border:0.4vmin solid white;border-radius:1vmin;";
-                document.getElementById("single_graffiti_canvas").style="position:relative;top:1%;left:1%;height:98%;width:98%;line-height:96vh;text-align:center;margin:0;";
+                document.getElementById("single_graffiti_canvas").style="position:relative;top:1%;left:1%;height:98%;width:98%;";
                 document.getElementById("map_border").style="position:absolute;top:50.5%;left:1%;height:48.5%;width:25%;border:0.4vmin solid white;border-radius:1vmin;";                 
             }
-            if (document.getElementById("map_frame").src.substr(0,18)=='https://www.google'){
-                    document.getElementById("map_frame").src=document.getElementById("map_frame").src;
-            } 
+            document.getElementById("map_frame").src=document.getElementById("map_frame").src;             
         }
 	</script>
     
@@ -125,8 +123,8 @@
     </div>
      
     <div  id="graffiti_border" style="position:absolute;top:1%;left:27%;height:98%;width:72%;font-size:3vh;border:0.4vmin solid white;border-radius:1vmin;">
-        <div id="single_graffiti_canvas" style="position:relative;top:1%;left:1%;height:98%;width:98%;line-height:96vh;text-align:center;margin:0;">
-            <img id="graffiti" src="" style="max-width:100%;max-height:100%;vertical-align:middle;width:auto;height:auto;border-radius:2vmin;">
+        <div id="single_graffiti_canvas" class="centered_block" style="position:relative;top:1%;left:1%;height:98%;width:98%;">
+            <img id="graffiti" src="" style="max-width:100%;max-height:100%;vertical-align:middle;width:auto;height:auto;border-radius:2vmin;display:inline-block;">      
         </div>
     </div>     
 
