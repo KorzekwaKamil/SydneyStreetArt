@@ -39,7 +39,7 @@ function initMap() {
 		indicator_marker.setIcon('graphics/big_blue.png');
 		indicator_marker.setVisible(true);
 	}	
-    google.maps.event.addDomListener(window,'resize',function(){google.maps.event.trigger(map, 'resize');});
+    	google.maps.event.addDomListener(window,'refresh_map',function(){google.maps.event.trigger(map, 'resize');});
 	
 	function loadMarkers() {
 		var data_xml=parent.data_xml.responseXML;
