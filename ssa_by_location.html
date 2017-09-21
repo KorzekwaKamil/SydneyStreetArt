@@ -12,7 +12,7 @@
 
 <body onresize="choose_orientation()" onload="orientation_and_visibility()" style="overflow:hidden">
 
-    <script>var exists=1;</script>
+    <script>var exists=1;var map_event = new Event('refresh_map');</script>
     <script src="scripts/map_init.js"></script>
     <script src="scripts/markerclusterer.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_BUk98XAiUAWE83JtAYyOgsXPG6uj3Jg&callback=initMap" async defer></script>
