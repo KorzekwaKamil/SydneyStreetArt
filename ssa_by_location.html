@@ -18,10 +18,10 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_BUk98XAiUAWE83JtAYyOgsXPG6uj3Jg&callback=initMap" async defer></script>
 	
 	<script src="scripts/choose_orientation.js"></script>
-    <script>
+    	<script>
 		function orientation_and_visibility() {
 			choose_orientation();
-            window.addEventListener("orientationchange", choose_orientation(), false);
+           		 window.addEventListener("orientationchange", choose_orientation(), false);
 			document.getElementById("graffiti_canvas").style.visibility="visible";
 			document.getElementById("map_container").style.visibility="visible";
 		}
@@ -46,7 +46,7 @@
     <div id="map_container" class="map_container_horizontal" style="visibility:hidden">
         <div id="map_canvas">
         </div>
-        <button id="map_group_button" style="top:10px;right:8px">&nbsp Group &nbsp </button>
+        <button id="map_group_button" style="top:10px;right:8px;visibility:hidden;">&nbsp Group &nbsp </button>
    </div> 
 	
     <div id="left_margin" class="external_margin" style="float:right;"></div>
