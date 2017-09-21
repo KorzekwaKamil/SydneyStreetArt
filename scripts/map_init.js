@@ -18,6 +18,7 @@ function initMap() {
 	var map_options = { 
 		center: myLatlng, 
 		zoom: current_zoom, 
+		gestureHandling: 'greedy',
 		mapTypeId: google.maps.MapTypeId.ROADMAP 
 	}			
 	var map = new google.maps.Map(map_canvas, map_options);			
