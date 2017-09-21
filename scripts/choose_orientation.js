@@ -11,7 +11,6 @@ function choose_orientation() {
 		document.getElementById("info_text").style.fontSize="4.5vw";
 		document.getElementById("info_text").style.lineHeight="4.5vw";
         
-		google.maps.event.trigger(map, 'resize');
 	}
 	else {
 
@@ -24,11 +23,9 @@ function choose_orientation() {
 
 		document.getElementById("map_container").className="map_container_horizontal";
 
-
 		document.getElementById("info_text").style.fontSize="2.5vw";        
 		document.getElementById("info_text").style.lineHeight="2.5vw";
-					
-		google.maps.event.trigger(map, 'resize');			
+							
 	}
 }
 
