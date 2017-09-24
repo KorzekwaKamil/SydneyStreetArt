@@ -276,7 +276,7 @@
 			background-color: black;
 			color: white;		
 			font-size:calc(1.6vh + 0.6vw);		
-            font-family:'Indie Flower', cursive;            
+            font-family:'Roboto', sans-serif;			            
 		}
 		
 		.about_text_canvas_vertical {
@@ -289,7 +289,7 @@
 			background-color: black;
 			color: white;	
 			font-size:calc(1.1vh + 1.0vw);
-            font-family:'Indie Flower', cursive;			
+            font-family:'Roboto', sans-serif;						
 		}
 		
 		.about_photo_canvas_horizontal {
