@@ -14,7 +14,7 @@ def check_if_exists(data_xml,file_name):
     return exists;
 
 
-path = 'Photos';
+path = 'photos';
 photographer="KK";
 
 parser = etree.XMLParser(remove_blank_text=True);
