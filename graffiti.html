@@ -66,20 +66,16 @@
             }
             data_xml.open("GET", "data/data.xml", true);
             data_xml.send();
+		
+	    function get_tag(tag_name,what_if_no_tag) {
+            	temp=graffiti.getElementsByTagName(tag_name)[0].childNodes;
+            	if (temp.length>0) {answer=temp[0].nodeValue;}
+            	else {answer=what_if_no_tag;}
+            	return(answer);
+            }
         }		
 			
 	</script>
-
-    <script>
-        function get_tag(tag_name,what_if_no_tag) {
-            temp=graffiti.getElementsByTagName(tag_name)[0].childNodes;
-            if (temp.length>0) {answer=temp[0].nodeValue;}
-            else {answer=what_if_no_tag;}
-            return(answer);
-        }
-        
-    </script>
-    
 	<script>
 		function getQueryVariable(variable)
 		{
