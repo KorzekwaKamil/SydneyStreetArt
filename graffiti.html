@@ -26,32 +26,39 @@
                     var graffitis=data_xml.responseXML.getElementsByTagName("graffiti");
                     graffiti=graffitis[graffiti_id];
                     
-                    path=graffiti.getElementsByTagName("full_path")[0].childNodes[0].nodeValue;
-                    date=graffiti.getElementsByTagName("date")[0].childNodes[0].nodeValue;
-                    lat=graffiti.getElementsByTagName("gps_lat")[0].childNodes[0].nodeValue;
-                    lon=graffiti.getElementsByTagName("gps_lon")[0].childNodes[0].nodeValue;
-                    photo_by=graffiti.getElementsByTagName("photographer")[0].childNodes[0].nodeValue;                                
-                    suburb=graffiti.getElementsByTagName("suburb")[0].childNodes[0].nodeValue;                                
-                                        
-                    temp1=graffiti.getElementsByTagName("artist")[0].childNodes;
-                    if (temp1.length>0) {artist=temp1[0].nodeValue;}
-                    else {artist="Unknown";}
-                    temp2=graffiti.getElementsByTagName("title")[0].childNodes;
-                    if (temp2.length>0) {title=temp2[0].nodeValue;}
-                    else {title="Graffiti #"+graffiti_id;}
-                    temp3=graffiti.getElementsByTagName("status")[0].childNodes;
-                    if (temp3.length>0) {status=temp3[0].nodeValue;}
-                    else {status="OK";}
-                         
+                    path=get_tag("full_path","");
+                    date=get_tag("date","Unknown");
+                    lat=get_tag("gps_lat","0.0");
+                    lon=get_tag("gps_lon","0.0");
+                    photo_by=get_tag("photographer","Unknown");                                
+                    suburb=get_tag("suburb","Unknown");                                
+                    title=get_tag("title","Graffiti #"+graffiti_id);
+                    artist=get_tag("artist","Unknown");                    
+                    status=get_tag("status","OK");
+                    
+                    artists=artist.split("/");
+                    number_of_artists=artists.length;
+                    artist_links=[];
+                    for (var i=0;i<number_of_artists;i++) {
+                        artist_links.push(get_tag("artist_link_"+(i+1),""));
+                    }
+                    
                     location_link='https://www.google.com/maps/embed/v1/place?key=AIzaSyC_BUk98XAiUAWE83JtAYyOgsXPG6uj3Jg&q='+lat+'%2C'+lon;
                     document.getElementById("map_frame").src=location_link;
                     document.getElementById("graffiti").src=path;
+                    document.getElementById("data_title").innerHTML=title;
+                    document.getElementById("data_suburb").innerHTML=suburb;
+                    document.getElementById("data_date").innerHTML=date;
+                    document.getElementById("data_photographer").innerHTML=photo_by;
                     
-                    document.getElementById("data_title").innerHTML="&nbsp"+title;
-                    document.getElementById("data_artist").innerHTML="&nbsp"+artist;
-                    document.getElementById("data_suburb").innerHTML="&nbsp"+suburb;
-                    document.getElementById("data_date").innerHTML="&nbsp"+date;
-                    document.getElementById("data_photographer").innerHTML="&nbsp"+photo_by;
+                    if (artist!="Unknown") {
+                        for (var i=0;i<number_of_artists;i++) {
+                            if (i==0) {document.getElementById("data_artist").innerHTML='<a href="'+artist_links[0]+'">'+artists[0]+'</a>';}
+                            else {document.getElementById("data_artist").innerHTML=document.getElementById("data_artist").innerHTML+"&nbsp"+"&amp"+"&nbsp"+'<a href="'+artist_links[i]+'">'+artists[i]+'</a>';}
+                        }
+                    }
+                    else {document.getElementById("data_artist").innerHTML="&nbsp"+"Unknown";}
+                                       
                     if (status!="OK") {
                         document.getElementById("graffiti_data").innerHTML=document.getElementById("graffiti_data").innerHTML+'<tr><th style="text-align:right">Status:&nbsp</th><th style="text-align:left">&nbsp'+status+'</th></tr>';
                     }                                         
@@ -63,6 +70,16 @@
 			
 	</script>
 
+    <script>
+        function get_tag(tag_name,what_if_no_tag) {
+            temp=graffiti.getElementsByTagName(tag_name)[0].childNodes;
+            if (temp.length>0) {answer=temp[0].nodeValue;}
+            else {answer=what_if_no_tag;}
+            return(answer);
+        }
+        
+    </script>
+    
 	<script>
 		function getQueryVariable(variable)
 		{
@@ -105,20 +122,22 @@
     <div id="text_border" style="position:absolute;top:1%;left:1%;height:48.5%;width:25%;font-size:3vh;border:0.4vmin solid white;border-radius:1vmin;">
         <div id="text_canvas" style="width:100%;position:absolute;top:50%;transform:translate(0%,-50%);">
             <table id="graffiti_data" >
+                <col width="33%">
+                <col width="67%">
                 <tr>
-                    <th style="text-align:right">Title:&nbsp</th><th style="text-align:left" id="data_title"></th>
+                    <th style="text-align:right">Title:&nbsp&nbsp</th><th style="text-align:center" id="data_title"></th>
                 </tr>
                 <tr>
-                    <th style="text-align:right">Artist:&nbsp</th><th style="text-align:left" id="data_artist"></th>
+                    <th style="text-align:right">Artist:&nbsp&nbsp</th><th style="text-align:center" id="data_artist"></th>
                 </tr>
                 <tr>
-                    <th style="text-align:right">Suburb:&nbsp</th><th style="text-align:left" id="data_suburb"></th>
+                    <th style="text-align:right">Suburb:&nbsp&nbsp</th><th style="text-align:center" id="data_suburb"></th>
                 </tr>
                 <tr>
-                    <th style="text-align:right">Date:&nbsp</th><th style="text-align:left" id="data_date"></th>
+                    <th style="text-align:right">Date:&nbsp&nbsp</th><th style="text-align:center" id="data_date"></th>
                 </tr>
                 <tr>
-                    <th style="text-align:right">Photo by:&nbsp</th><th style="text-align:left" id="data_photographer"></th>
+                    <th style="text-align:right">Photo by:&nbsp&nbsp</th><th style="text-align:center" id="data_photographer"></th>
                 </tr>
             </table>
         </div>
