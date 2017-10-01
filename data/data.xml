@@ -11,6 +11,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -24,7 +25,8 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Steen Jones</artist>
+    <artist_link_1>https://www.steenjones.com/</artist_link_1>
     <description/>
   </graffiti>
   <graffiti>
@@ -38,7 +40,8 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>ELK</artist>
+    <artist_link_1>http://www.elkstencils.com/</artist_link_1>
     <description/>
   </graffiti>
   <graffiti>
@@ -53,6 +56,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -67,6 +71,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -81,6 +86,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -95,6 +101,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -109,6 +116,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -123,6 +131,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -137,6 +146,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -151,6 +161,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -165,6 +176,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -179,6 +191,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -193,6 +206,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -207,6 +221,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -221,6 +236,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -235,6 +251,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -248,7 +265,8 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Lyss</artist>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -263,6 +281,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -277,6 +296,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -290,7 +310,8 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Kyoudong Kim</artist>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -304,7 +325,8 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Kyoudong Kim</artist>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -319,6 +341,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -333,6 +356,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -347,6 +371,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -361,6 +386,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -375,6 +401,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -389,6 +416,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -403,6 +431,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -416,7 +445,8 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Apeseven</artist>
+    <artist_link_1>http://apeseven.wixsite.com/s-o-s</artist_link_1>
     <description/>
   </graffiti>
   <graffiti>
@@ -431,6 +461,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -445,6 +476,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -459,6 +491,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -473,6 +506,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -487,6 +521,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -501,6 +536,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -515,6 +551,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -529,6 +566,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -543,6 +581,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -556,7 +595,9 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Gus/Cekios</artist>
+    <artist_link_1>https://www.facebook.com/gussss</artist_link_1>
+    <artist_link_2>https://www.instagram.com/cekioss/?hl=en</artist_link_2>
     <description/>
   </graffiti>
   <graffiti>
@@ -571,6 +612,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -585,6 +627,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -597,8 +640,13 @@
     <gps_lon>151.214971694</gps_lon>
     <photographer>KK</photographer>
     <status/>
-    <title/>
-    <artist/>
+    <title>We are here</title>
+    <artist>Gui Andrade/Sarah Howell/byrd/Dylan Demarchi/The dirt</artist>
+    <artist_link_1/>
+    <artist_link_2/>
+    <artist_link_3/>
+    <artist_link_4/>
+    <artist_link_5/>
     <description/>
   </graffiti>
   <graffiti>
@@ -611,8 +659,13 @@
     <gps_lon>151.215365694</gps_lon>
     <photographer>KK</photographer>
     <status/>
-    <title/>
-    <artist/>
+    <title>We are here</title>
+    <artist>Gui Andrade/Sarah Howell/byrd/Dylan Demarchi/The dirt</artist>
+    <artist_link_1/>
+    <artist_link_2/>
+    <artist_link_3/>
+    <artist_link_4/>
+    <artist_link_5/>
     <description/>
   </graffiti>
   <graffiti>
@@ -625,8 +678,13 @@
     <gps_lon>151.215382861</gps_lon>
     <photographer>KK</photographer>
     <status/>
-    <title/>
-    <artist/>
+    <title>We are here</title>
+    <artist>Gui Andrade/Sarah Howell/byrd/Dylan Demarchi/The dirt</artist>
+    <artist_link_1/>
+    <artist_link_2/>
+    <artist_link_3/>
+    <artist_link_4/>
+    <artist_link_5/>
     <description/>
   </graffiti>
   <graffiti>
@@ -639,8 +697,13 @@
     <gps_lon>151.215623194</gps_lon>
     <photographer>KK</photographer>
     <status/>
-    <title/>
-    <artist/>
+    <title>We are here</title>
+    <artist>Gui Andrade/Sarah Howell/byrd/Dylan Demarchi/The dirt</artist>
+    <artist_link_1/>
+    <artist_link_2/>
+    <artist_link_3/>
+    <artist_link_4/>
+    <artist_link_5/>
     <description/>
   </graffiti>
   <graffiti>
@@ -653,8 +716,13 @@
     <gps_lon>151.215623194</gps_lon>
     <photographer>KK</photographer>
     <status/>
-    <title/>
-    <artist/>
+    <title>We are here</title>
+    <artist>Gui Andrade/Sarah Howell/byrd/Dylan Demarchi/The dirt</artist>
+    <artist_link_1/>
+    <artist_link_2/>
+    <artist_link_3/>
+    <artist_link_4/>
+    <artist_link_5/>
     <description/>
   </graffiti>
   <graffiti>
@@ -667,8 +735,13 @@
     <gps_lon>151.215649917</gps_lon>
     <photographer>KK</photographer>
     <status/>
-    <title/>
-    <artist/>
+    <title>We are here</title>
+    <artist>Gui Andrade/Sarah Howell/byrd/Dylan Demarchi/The dirt</artist>
+    <artist_link_1/>
+    <artist_link_2/>
+    <artist_link_3/>
+    <artist_link_4/>
+    <artist_link_5/>
     <description/>
   </graffiti>
   <graffiti>
@@ -681,8 +754,13 @@
     <gps_lon>151.215649917</gps_lon>
     <photographer>KK</photographer>
     <status/>
-    <title/>
-    <artist/>
+    <title>We are here</title>
+    <artist>Gui Andrade/Sarah Howell/byrd/Dylan Demarchi/The dirt</artist>
+    <artist_link_1/>
+    <artist_link_2/>
+    <artist_link_3/>
+    <artist_link_4/>
+    <artist_link_5/>
     <description/>
   </graffiti>
   <graffiti>
@@ -695,8 +773,13 @@
     <gps_lon>151.215943889</gps_lon>
     <photographer>KK</photographer>
     <status/>
-    <title/>
-    <artist/>
+    <title>We are here</title>
+    <artist>Gui Andrade/Sarah Howell/byrd/Dylan Demarchi/The dirt</artist>
+    <artist_link_1/>
+    <artist_link_2/>
+    <artist_link_3/>
+    <artist_link_4/>
+    <artist_link_5/>
     <description/>
   </graffiti>
   <graffiti>
@@ -710,7 +793,8 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Mr Perso</artist>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -725,6 +809,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -739,6 +824,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -753,6 +839,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -767,6 +854,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -781,6 +869,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -795,6 +884,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -809,6 +899,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -823,6 +914,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -837,6 +929,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -851,6 +944,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -865,6 +959,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -879,6 +974,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -893,6 +989,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -907,6 +1004,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -921,6 +1019,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -935,6 +1034,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -949,6 +1049,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -962,7 +1063,8 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Maid</artist>
+    <artist_link_1>https://www.instagram.com/liquidpastels/</artist_link_1>
     <description/>
   </graffiti>
   <graffiti>
@@ -977,6 +1079,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -990,7 +1093,8 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Retro</artist>
+    <artist_link_1>https://www.instagram.com/blogthief/</artist_link_1>
     <description/>
   </graffiti>
   <graffiti>
@@ -1004,7 +1108,9 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Maid/Retro</artist>
+    <artist_link_1>https://www.instagram.com/liquidpastels/</artist_link_1>
+    <artist_link_2>https://www.instagram.com/blogthief/</artist_link_2>
     <description/>
   </graffiti>
   <graffiti>
@@ -1018,7 +1124,9 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Maid/Retro</artist>
+    <artist_link_1>https://www.instagram.com/liquidpastels/</artist_link_1>
+    <artist_link_2>https://www.instagram.com/blogthief/</artist_link_2>
     <description/>
   </graffiti>
   <graffiti>
@@ -1032,7 +1140,9 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Maid/Retro</artist>
+    <artist_link_1>https://www.instagram.com/liquidpastels/</artist_link_1>
+    <artist_link_2>https://www.instagram.com/blogthief/</artist_link_2>
     <description/>
   </graffiti>
   <graffiti>
@@ -1047,6 +1157,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1061,6 +1172,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1075,6 +1187,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1089,6 +1202,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1103,6 +1217,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1117,6 +1232,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1131,6 +1247,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1145,6 +1262,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1159,6 +1277,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1173,6 +1292,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1187,6 +1307,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1201,6 +1322,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1215,6 +1337,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1229,6 +1352,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1243,6 +1367,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1257,6 +1382,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1271,6 +1397,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1285,6 +1412,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1299,6 +1427,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1313,6 +1442,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1327,6 +1457,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1341,6 +1472,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1355,6 +1487,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1369,6 +1502,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1383,6 +1517,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1397,6 +1532,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1411,6 +1547,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1425,6 +1562,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1439,6 +1577,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1453,6 +1592,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1467,6 +1607,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1481,6 +1622,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1495,6 +1637,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1509,6 +1652,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1523,6 +1667,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1536,7 +1681,8 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Lyss</artist>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1550,7 +1696,8 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Lyss</artist>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1565,6 +1712,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1579,6 +1727,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1593,6 +1742,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1607,6 +1757,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1621,6 +1772,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1635,6 +1787,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1649,6 +1802,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1663,6 +1817,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1677,6 +1832,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1691,6 +1847,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1705,6 +1862,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1719,6 +1877,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1733,6 +1892,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1747,6 +1907,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1761,6 +1922,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1775,6 +1937,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1789,6 +1952,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1802,7 +1966,8 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Maid</artist>
+    <artist_link_1>https://www.instagram.com/liquidpastels/</artist_link_1>
     <description/>
   </graffiti>
   <graffiti>
@@ -1817,6 +1982,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1831,6 +1997,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1845,6 +2012,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1859,6 +2027,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1873,6 +2042,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1885,8 +2055,9 @@
     <gps_lon>151.169371667</gps_lon>
     <photographer>KK</photographer>
     <status/>
-    <title/>
-    <artist/>
+    <title>Spirit of Australian Settlement</title>
+    <artist>Fintan Magee</artist>
+    <artist_link_1>http://www.fintanmagee.com/</artist_link_1>
     <description/>
   </graffiti>
   <graffiti>
@@ -1901,6 +2072,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1915,6 +2087,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1929,6 +2102,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1943,6 +2117,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1957,6 +2132,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1971,6 +2147,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1985,6 +2162,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -1999,6 +2177,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2013,6 +2192,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2027,6 +2207,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2041,6 +2222,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2055,6 +2237,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2069,6 +2252,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2083,6 +2267,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2097,6 +2282,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2111,6 +2297,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2123,8 +2310,9 @@
     <gps_lon>151.180965677</gps_lon>
     <photographer>KK</photographer>
     <status/>
-    <title/>
-    <artist/>
+    <title>Flood Emergency Supply Drop</title>
+    <artist>Fintan Magee</artist>
+    <artist_link_1>http://www.fintanmagee.com/</artist_link_1>
     <description/>
   </graffiti>
   <graffiti>
@@ -2139,6 +2327,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2152,7 +2341,8 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Fintan Magee</artist>
+    <artist_link_1>http://www.fintanmagee.com/</artist_link_1>
     <description/>
   </graffiti>
   <graffiti>
@@ -2167,6 +2357,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2181,6 +2372,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2195,6 +2387,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2209,6 +2402,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2223,6 +2417,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2237,6 +2432,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2251,6 +2447,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2265,6 +2462,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2279,6 +2477,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2293,6 +2492,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2307,6 +2507,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2321,6 +2522,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2335,6 +2537,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2349,6 +2552,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2363,6 +2567,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2377,6 +2582,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2391,6 +2597,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2405,6 +2612,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2419,6 +2627,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2433,6 +2642,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2445,8 +2655,9 @@
     <gps_lon>151.175312111</gps_lon>
     <photographer>KK</photographer>
     <status/>
-    <title/>
-    <artist/>
+    <title>The Hikers</title>
+    <artist>Fintan Magee</artist>
+    <artist_link_1>http://www.fintanmagee.com/</artist_link_1>
     <description/>
   </graffiti>
   <graffiti>
@@ -2459,8 +2670,9 @@
     <gps_lon>151.175361972</gps_lon>
     <photographer>KK</photographer>
     <status/>
-    <title/>
-    <artist/>
+    <title>The Hikers</title>
+    <artist>Fintan Magee</artist>
+    <artist_link_1>http://www.fintanmagee.com/</artist_link_1>
     <description/>
   </graffiti>
   <graffiti>
@@ -2475,6 +2687,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2489,6 +2702,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2503,6 +2717,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2517,6 +2732,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2531,6 +2747,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2543,8 +2760,9 @@
     <gps_lon>151.173555194</gps_lon>
     <photographer>KK</photographer>
     <status/>
-    <title/>
-    <artist/>
+    <title>The Therapist</title>
+    <artist>Fintan Magee</artist>
+    <artist_link_1>http://www.fintanmagee.com/</artist_link_1>
     <description/>
   </graffiti>
   <graffiti>
@@ -2559,6 +2777,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2573,6 +2792,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2587,6 +2807,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2599,8 +2820,9 @@
     <gps_lon>151.180199417</gps_lon>
     <photographer>KK</photographer>
     <status/>
-    <title/>
-    <artist/>
+    <title>Bracing a Falling Sky</title>
+    <artist>Fintan Magee</artist>
+    <artist_link_1>http://www.fintanmagee.com/</artist_link_1>
     <description/>
   </graffiti>
   <graffiti>
@@ -2615,6 +2837,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2629,6 +2852,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2643,6 +2867,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2657,6 +2882,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2671,6 +2897,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2685,6 +2912,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2699,6 +2927,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2713,6 +2942,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2727,6 +2957,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2741,6 +2972,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2755,6 +2987,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2769,6 +3002,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2783,6 +3017,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2797,6 +3032,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2811,6 +3047,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2825,6 +3062,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2839,6 +3077,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2853,6 +3092,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2867,6 +3107,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2881,6 +3122,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2895,6 +3137,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2909,6 +3152,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2923,6 +3167,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2937,6 +3182,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2951,6 +3197,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2965,6 +3212,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2979,6 +3227,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -2993,6 +3242,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3007,6 +3257,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3021,6 +3272,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3035,6 +3287,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3049,6 +3302,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3063,6 +3317,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3077,6 +3332,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3091,6 +3347,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3105,6 +3362,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3119,6 +3377,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3133,6 +3392,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3147,6 +3407,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3161,6 +3422,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3175,6 +3437,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3189,6 +3452,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3203,6 +3467,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3217,6 +3482,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3231,6 +3497,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3245,6 +3512,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3259,6 +3527,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3273,6 +3542,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3287,6 +3557,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3301,6 +3572,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3315,6 +3587,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3329,6 +3602,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3343,6 +3617,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3357,6 +3632,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3371,6 +3647,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3385,6 +3662,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3399,6 +3677,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3413,6 +3692,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3427,6 +3707,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3441,6 +3722,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3455,6 +3737,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3469,6 +3752,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3483,6 +3767,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3497,6 +3782,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3511,6 +3797,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3523,8 +3810,9 @@
     <gps_lon>151.176362944</gps_lon>
     <photographer>KK</photographer>
     <status/>
-    <title/>
-    <artist/>
+    <title>The Housing Bubble</title>
+    <artist>Fintan Magee</artist>
+    <artist_link_1>http://www.fintanmagee.com/</artist_link_1>
     <description/>
   </graffiti>
   <graffiti>
@@ -3539,6 +3827,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3553,6 +3842,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3567,6 +3857,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3581,6 +3872,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3594,7 +3886,8 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Retro</artist>
+    <artist_link_1>https://www.instagram.com/blogthief/</artist_link_1>
     <description/>
   </graffiti>
   <graffiti>
@@ -3608,7 +3901,9 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Maid/Retro</artist>
+    <artist_link_1>https://www.instagram.com/liquidpastels/</artist_link_1>
+    <artist_link_2>https://www.instagram.com/blogthief/</artist_link_2>
     <description/>
   </graffiti>
   <graffiti>
@@ -3622,7 +3917,8 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Maid</artist>
+    <artist_link_1>https://www.instagram.com/liquidpastels/</artist_link_1>
     <description/>
   </graffiti>
   <graffiti>
@@ -3637,6 +3933,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3651,6 +3948,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3665,6 +3963,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3679,6 +3978,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3693,6 +3993,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3707,6 +4008,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3721,6 +4023,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3735,6 +4038,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3749,6 +4053,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3763,6 +4068,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3777,6 +4083,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3791,6 +4098,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3805,6 +4113,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3819,6 +4128,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3833,6 +4143,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3847,6 +4158,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3861,6 +4173,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3875,6 +4188,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3889,6 +4203,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3903,6 +4218,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3916,7 +4232,8 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Fintan Magee</artist>
+    <artist_link_1>http://www.fintanmagee.com/</artist_link_1>
     <description/>
   </graffiti>
   <graffiti>
@@ -3931,6 +4248,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3945,6 +4263,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3959,6 +4278,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3973,6 +4293,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -3987,6 +4308,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4001,6 +4323,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4015,6 +4338,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4029,6 +4353,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4043,6 +4368,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4057,6 +4383,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4071,6 +4398,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4085,6 +4413,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4099,6 +4428,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4113,6 +4443,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4127,6 +4458,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4141,6 +4473,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4155,6 +4488,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4169,6 +4503,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4183,6 +4518,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4197,6 +4533,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4211,6 +4548,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4225,6 +4563,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4239,6 +4578,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4253,6 +4593,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4267,6 +4608,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4281,6 +4623,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4295,6 +4638,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4309,6 +4653,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4323,6 +4668,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4337,6 +4683,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4351,6 +4698,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4365,6 +4713,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4379,6 +4728,7 @@
     <status>Removed</status>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4393,6 +4743,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4407,6 +4758,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4421,6 +4773,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4435,6 +4788,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4449,6 +4803,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4463,6 +4818,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4477,6 +4833,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4491,6 +4848,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4505,6 +4863,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4519,6 +4878,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4533,6 +4893,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4547,6 +4908,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4561,6 +4923,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4575,6 +4938,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4589,6 +4953,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4603,6 +4968,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4617,6 +4983,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4631,6 +4998,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4645,6 +5013,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4659,6 +5028,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4673,6 +5043,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4685,8 +5056,9 @@
     <gps_lon>151.211648556</gps_lon>
     <photographer>KK</photographer>
     <status/>
-    <title/>
-    <artist/>
+    <title>Self-Portrait</title>
+    <artist>Fintan Magee</artist>
+    <artist_link_1>http://www.fintanmagee.com/</artist_link_1>
     <description/>
   </graffiti>
   <graffiti>
@@ -4701,6 +5073,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4715,6 +5088,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4729,6 +5103,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4743,6 +5118,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4757,6 +5133,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4771,6 +5148,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4785,6 +5163,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4799,6 +5178,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4813,6 +5193,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4827,6 +5208,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4841,6 +5223,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4855,6 +5238,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4869,6 +5253,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4883,6 +5268,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4897,6 +5283,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4910,7 +5297,8 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>knoswet</artist>
+    <artist_link_1>https://www.instagram.com/knoswet/</artist_link_1>
     <description/>
   </graffiti>
   <graffiti>
@@ -4925,6 +5313,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4939,6 +5328,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4953,6 +5343,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4966,7 +5357,8 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Mr Perso</artist>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4981,6 +5373,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -4995,6 +5388,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -5009,6 +5403,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -5023,6 +5418,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -5037,6 +5433,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -5051,6 +5448,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -5064,7 +5462,8 @@
     <photographer>KK</photographer>
     <status/>
     <title/>
-    <artist/>
+    <artist>Adam Todd</artist>
+    <artist_link_1>https://www.adamtoddart.com</artist_link_1>
     <description/>
   </graffiti>
   <graffiti>
@@ -5079,6 +5478,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -5093,6 +5493,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -5107,6 +5508,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -5121,6 +5523,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -5135,6 +5538,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -5149,6 +5553,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -5163,6 +5568,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -5177,6 +5583,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -5191,6 +5598,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -5205,6 +5613,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -5219,6 +5628,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -5233,6 +5643,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -5247,6 +5658,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -5261,6 +5673,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
   <graffiti>
@@ -5275,6 +5688,7 @@
     <status/>
     <title/>
     <artist/>
+    <artist_link_1/>
     <description/>
   </graffiti>
 </graffiti_list>
