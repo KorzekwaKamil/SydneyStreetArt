@@ -11,7 +11,9 @@ function choose_orientation() {
 		document.getElementById("info_text").style.fontSize="4.5vw";
 		document.getElementById("info_text").style.lineHeight="4.5vw";
 		window.dispatchEvent(map_event);
-        
+		
+		document.getElementById('graffiti_description').className="graffiti_description_vertical";
+        	document.getElementById('graffiti_description').style.width=document.getElementById('graffiti').width+"px";  
 	}
 	else {
 
@@ -27,7 +29,9 @@ function choose_orientation() {
 		document.getElementById("info_text").style.fontSize="2.5vw";        
 		document.getElementById("info_text").style.lineHeight="2.5vw";
 		window.dispatchEvent(map_event);
-							
+		
+		document.getElementById('graffiti_description').className="graffiti_description_horizontal";        
+       		document.getElementById('graffiti_description').style.width=document.getElementById('graffiti').width+"px";						
 	}
 }
 
