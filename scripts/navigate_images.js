@@ -10,8 +10,18 @@ function previous_image() {
     load_picture(current_graffiti,current_image);	
 }
 
+function show_description() {
+    document.getElementById("graffiti_description").style.visibility="visible";
+}
+
+function hide_description() {
+    document.getElementById("graffiti_description").style.visibility="hidden";
+}
+
 function load_picture(graffiti_index,picture_number) {
     image_handle=document.getElementById('graffiti');
+    desc_handle=document.getElementById('graffiti_description');
+    
     image_handle.style.WebkitFilter="blur(10px)";
     
     var data_xml=parent.data_xml.responseXML;
@@ -21,19 +31,27 @@ function load_picture(graffiti_index,picture_number) {
     path=graffitis[id].getElementsByTagName("full_path")[0].childNodes[0].nodeValue;
     image_handle.src = path;
 
-    graffiti_status=graffitis[id].getElementsByTagName("status")[0].childNodes;
-    if (graffiti_status.length>0) {
-        if (graffiti_status[0].nodeValue=="Removed") {
-            exists=0;
-        }
-        else {exists=1;}
-    }
+    graffiti_status=get_tag("status","OK");
+    if (graffiti_status=="Removed") {exists=0;}
     else {exists=1;}
+    
+    title=get_tag("title","Graffiti #"+id);
+    artist=get_tag("artist","Unknown");
+    desc_handle.innerHTML=title+"<br/>by "+artist+"<br/>Click to get full info";
     
     image_handle.onclick=function () {
         var location_window=window.open('graffiti.html?id='+id,"","");   
         return false; 
     };
+    desc_handle.onclick=function () {
+        var location_window=window.open('graffiti.html?id='+id,"","");   
+        return false; 
+    };
     
+    function get_tag(tag_name,what_if_no_tag) {
+        temp=graffitis[id].getElementsByTagName(tag_name)[0].childNodes;
+        if (temp.length>0) {answer=temp[0].nodeValue;}
+        else {answer=what_if_no_tag;}
+        return(answer);
+    }   
 }
-
