@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- Global Site Tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106186455-1"></script>
-	<script>
-  		window.dataLayer = window.dataLayer || [];
-  		function gtag(){dataLayer.push(arguments)};
-  		gtag('js', new Date());
-  		gtag('config', 'UA-106186455-1');
-	</script>
 	<title>Sydney Street Art</title>
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 	<meta charset="utf-8">
@@ -23,30 +15,37 @@
     <script>var exists=1;var map_event = new Event('refresh_map');</script>
     <script src="scripts/map_init.js"></script>
     <script src="scripts/markerclusterer.js"></script>
-    	
+    
 	<script src="scripts/choose_orientation.js"></script>
-    	<script>
+    <script>
 		function orientation_and_visibility() {
 			choose_orientation();
-           		window.addEventListener("orientationchange", choose_orientation(), false);
+            window.addEventListener("orientationchange", choose_orientation(), false);
 			document.getElementById("graffiti_canvas").style.visibility="visible";
 			document.getElementById("map_container").style.visibility="visible";
-			document.getElementById("map_group_button").style.visibility="visible";
+            document.getElementById("map_group_button").style.visibility="visible";          
 		}
 	</script>
 	
 
 	<div id="right_margin" class="external_margin" style="float:right;"></div>	
 		
-    <div id="graffiti_canvas" class="graffiti_canvas_horizontal" style="visibility:hidden">                   
+	<div id="graffiti_canvas" class="graffiti_canvas_horizontal" style="visibility:hidden">                   
+        
         <div class="graffiti_buttons" style="right:2.5%;visibility:hidden;">
             <img id="next_button" src="graphics/next.png" onclick="next_image()">
         </div>
+        
         <div class="graffiti_buttons" style="left:2.5%;visibility:hidden;">
             <img id="previous_button" src="graphics/previous.png" onclick="previous_image()">
         </div>
-        <div id="info_text">Click on location to see street art nearby</div>       
-        <img id="graffiti" src="" style="cursor:pointer" height="100%" width="100%" onload="reset_filter()">
+        
+        <div id="info_text">Click on location to see street art nearby</div> 
+      
+        <img id="graffiti" src="" style="cursor:pointer;" height="100%" width="100%" onload="reset_filter()" onmouseenter="show_description()" onmouseleave="hide_description()">
+        
+        <div id="graffiti_description" style="visibility:hidden;" class="graffiti_description_horizontal" onmouseenter="show_description()"onmouseleave="hide_description()"></div>  
+    
     </div>
 	
 	<div id="middle_margin" class="middle_margin_horizontal" style="float:right"></div>
@@ -63,11 +62,13 @@
 		function reset_filter() {
 			if (exists==1) {document.getElementById('graffiti').style.WebkitFilter="";}
             else {document.getElementById('graffiti').style.WebkitFilter="sepia(100%)";}
+            document.getElementById('graffiti_description').style.width=document.getElementById('graffiti').width+"px";           
 		}
 	</script>
 	
 	<script src="scripts/navigate_images.js"></script> 
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_BUk98XAiUAWE83JtAYyOgsXPG6uj3Jg&callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_BUk98XAiUAWE83JtAYyOgsXPG6uj3Jg&callback=initMap" async defer></script>
+	
 
 </body>
 </html>
