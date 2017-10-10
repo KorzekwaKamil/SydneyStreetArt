@@ -186,7 +186,31 @@
             border-radius:2vmin;
             z-index:2;
 		}	
-
+        
+        .graffiti_description_horizontal {
+            cursor:pointer;
+            line-height:4vmax;
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color:rgba(0,0,0,0.5);
+            font-family: 'Indie Flower', cursive;
+            font-size:2vmax;            
+        }
+        
+        .graffiti_description_vertical {
+            cursor:pointer;
+            line-height:6vmax;
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color:rgba(0,0,0,0.5);
+            font-family: 'Indie Flower', cursive;
+            font-size:3vmax;
+        }
+        
         .graffiti_buttons {
             height:99.99%;
             width:8%;
@@ -240,14 +264,11 @@
 			display:inline-block;
 			vertical-align:middle;
 			cursor:pointer;
-			max-width:44%;
-			max-height:44%;
-			width: auto;
-			height: auto;
+			height: 15vmax;
 			margin-left: 0.3vw;
 			margin-right: 0.3vw;
 			margin-top: auto;
-			margin-bottom: 3vh;
+			margin-bottom: 1.5vmax;
 			transition:transform 0.3s;
             border-radius:10px;
 		}
@@ -276,7 +297,7 @@
 			background-color: black;
 			color: white;		
 			font-size:calc(1.6vh + 0.6vw);		
-            font-family:'Roboto', sans-serif;			            
+            font-family:'Roboto', sans-serif;            
 		}
 		
 		.about_text_canvas_vertical {
@@ -289,7 +310,7 @@
 			background-color: black;
 			color: white;	
 			font-size:calc(1.1vh + 1.0vw);
-            font-family:'Roboto', sans-serif;						
+            font-family:'Roboto', sans-serif;			
 		}
 		
 		.about_photo_canvas_horizontal {
@@ -322,15 +343,15 @@
             color:white; 
             font-family: 'Indie Flower', cursive;
             vertical-align:center;
-	}
-
-	#graffiti_data a {
+		}
+        
+        #graffiti_data  a{
             color:black;
             background-color:white;
             text-decoration:none;
-	}
+		}
         
-	.centered_block {
+        .centered_block {
             text-align: center;
             white-space: nowrap;
         }
