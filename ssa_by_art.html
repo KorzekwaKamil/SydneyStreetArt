@@ -5,29 +5,33 @@
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">    
 </head>
 
-<body>
+<body onload="load_pictures()">
+
 	<script src="scripts/navigate_images.js"></script>		
-	
-    <img id="loader" style="position:fixed;left:50%;top:30%;transform: translate(-50%, 0%);width:30%;height:auto;" src="graphics/loading.png" onload="load_pictures()">
+	<script src="scripts/spin.js"></script>	
     
     <div id="gallery_canvas"></div>
         
-	<div id="central_footer" class="footer" style="width:100%">
+	<div id="central_footer" class="footer" style="width:100%;visibility:hidden;">
 		<div style="display:table;height:100%;width:100%">
 			<div style="display:table-cell;text-align:center;vertical-align:middle;font-size:4.8vmin;">Click on a picture to enlarge and get details</div>
 		</div>
 	</div>
+
+    <script>
+        var spinner=new Spinner({color:'#fff', lines: 12}).spin(document.getElementById("gallery_canvas"));
+    </script>
     
     <script>
         function load_pictures(){
-            var k=0;
+            spinner.stop()
+            document.getElementById("central_footer").style.visibility="visible";
             var data_xml=parent.data_xml.responseXML;
             var graffitis=data_xml.getElementsByTagName("graffiti");
             for (i = 0; i < graffitis.length; i++) {
-                k=k+1;
                 path=graffitis[i].getElementsByTagName("full_path")[0].childNodes[0].nodeValue;
                 if (graffitis[i].getElementsByTagName("width")[0].childNodes[0].nodeValue=="1024") {graffiti_width="26.67vmax"}
                 else {graffiti_width="8.44vmax"};
@@ -35,15 +39,15 @@
                 graffiti_status=graffitis[i].getElementsByTagName("status")[0].childNodes;
                 if (graffiti_status.length>0) {
                     if (graffiti_status[0].nodeValue=="Removed") {
-                        document.getElementById("gallery_canvas").innerHTML=document.getElementById("gallery_canvas").innerHTML+'<img src="'+path+'" style="-webkit-filter:sepia(100%)" onclick="window.open('+"'graffiti.html?id="+i+"','','')"+'">\n';
+                        document.getElementById("gallery_canvas").innerHTML=document.getElementById("gallery_canvas").innerHTML+'<img src="'+path+'" style="width:'+graffiti_width+';-webkit-filter:sepia(100%)" onclick="window.open('+"'graffiti.html?id="+i+"','','')"+'">\n';
                     }
                 }
                 else {
                     document.getElementById("gallery_canvas").innerHTML=document.getElementById("gallery_canvas").innerHTML+'<img src="'+path+'" style="width:'+graffiti_width+'" onclick="window.open('+"'graffiti.html?id="+i+"','','')"+'">\n';
                 }
-            }
-            if (k>0) {document.getElementById("loader").style.display="none";}
+            }           
         }
     </script>
+    
 	</body>
 </html>
