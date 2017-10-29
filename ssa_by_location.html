@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- Global Site Tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106186455-1"></script>
-	<script>
-  		window.dataLayer = window.dataLayer || [];
-  		function gtag(){dataLayer.push(arguments)};
-  		gtag('js', new Date());
-  		gtag('config', 'UA-106186455-1');
-	</script>
 	<title>Sydney Street Art</title>
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">  
 </head>
 
-<body onresize="choose_orientation()" onload="orientation_and_visibility()" style="overflow:hidden">
-
+<body onresize="choose_orientation()" onload="orientation_and_visibility()" style="overflow:hidden" id="main_body">
+    
+    <script src="scripts/spin.js"></script>	
+    <script>
+        var spinner=new Spinner({color:'#fff', scale:3, lines: 12}).spin(document.getElementById("main_body"));
+    </script>
     <script>var exists=1;var map_event = new Event('refresh_map');</script>
     <script src="scripts/map_init.js"></script>
     <script src="scripts/markerclusterer.js"></script>
+    
+    
+    
     
 	<script src="scripts/choose_orientation.js"></script>
     <script>
@@ -31,7 +29,8 @@
             window.addEventListener("orientationchange", choose_orientation(), false);
 			document.getElementById("graffiti_canvas").style.visibility="visible";
 			document.getElementById("map_container").style.visibility="visible";
-            document.getElementById("map_group_button").style.visibility="visible";          
+            document.getElementById("map_group_button").style.visibility="visible";     
+            spinner.stop();            
 		}
 	</script>
 	
@@ -51,10 +50,9 @@
         <div id="info_text">Click on location to see street art nearby</div> 
       
         <img id="graffiti" src="" style="cursor:pointer;" height="100%" width="100%" onload="reset_filter()" onmouseenter="show_description()" onmouseout="hide_description()">
-       	
-	<div id="graffiti_description" style="visibility:hidden;" class="graffiti_description_horizontal" onmouseenter="show_description()" onmouseout="hide_description()"></div>  
-    
         
+        <div id="graffiti_description" style="visibility:hidden;" class="graffiti_description_horizontal" onmouseenter="show_description()"onmouseout="hide_description()"></div>  
+    
     </div>
 	
 	<div id="middle_margin" class="middle_margin_horizontal" style="float:right"></div>
@@ -78,6 +76,5 @@
 	<script src="scripts/navigate_images.js"></script> 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_BUk98XAiUAWE83JtAYyOgsXPG6uj3Jg&callback=initMap" async defer></script>
 	
-
 </body>
 </html>
