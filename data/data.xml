@@ -1,5 +1,22 @@
 <graffiti_list>
   <graffiti>
+    <file_name>IMG_20171001_170339602.jpg</file_name>
+    <full_path>photos\Alexandria\IMG_20171001_170339602.jpg</full_path>
+    <suburb>Alexandria</suburb>
+    <date>01.10.2017</date>
+    <time>17:03</time>
+    <gps_lat>-33.9028005</gps_lat>
+    <gps_lon>151.196842583</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
     <file_name>IMG_20170826_122246101_HDR.jpg</file_name>
     <full_path>photos\Annandale\IMG_20170826_122246101_HDR.jpg</full_path>
     <suburb>Annandale</suburb>
@@ -7,6 +24,40 @@
     <time>12:22</time>
     <gps_lat>-33.8855665</gps_lat>
     <gps_lon>151.174923278</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171013_133750025_HDR.jpg</file_name>
+    <full_path>photos\Annandale\IMG_20171013_133750025_HDR.jpg</full_path>
+    <suburb>Annandale</suburb>
+    <date>13.10.2017</date>
+    <time>13:37</time>
+    <gps_lat>-33.887022</gps_lat>
+    <gps_lon>151.174379083</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171013_133750025_HDR_02.jpg</file_name>
+    <full_path>photos\Annandale\IMG_20171013_133750025_HDR_02.jpg</full_path>
+    <suburb>Annandale</suburb>
+    <date>13.10.2017</date>
+    <time>13:19</time>
+    <gps_lat>-33.88725375</gps_lat>
+    <gps_lon>151.174428111</gps_lon>
     <photographer>KK</photographer>
     <status/>
     <title/>
@@ -2705,6 +2756,23 @@
     <width>1024</width>
   </graffiti>
   <graffiti>
+    <file_name>IMG_20170115_180546017_HDR_03.jpg</file_name>
+    <full_path>photos\Newtown\IMG_20170115_180546017_HDR_03.jpg</full_path>
+    <suburb>Newtown</suburb>
+    <date>13.10.2017</date>
+    <time>14:02</time>
+    <gps_lat>-33.89571475</gps_lat>
+    <gps_lon>151.179340528</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist>Kyle Hughes-Odgers</artist>
+    <artist_link_1>https://www.instagram.com/kylehughesodgers/</artist_link_1>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
     <file_name>IMG_20170225_152043928_HDR.jpg</file_name>
     <full_path>photos\Newtown\IMG_20170225_152043928_HDR.jpg</full_path>
     <suburb>Newtown</suburb>
@@ -5171,6 +5239,57 @@
     <width>1024</width>
   </graffiti>
   <graffiti>
+    <file_name>IMG_20171013_135636130_HDR.jpg</file_name>
+    <full_path>photos\Newtown\IMG_20171013_135636130_HDR.jpg</full_path>
+    <suburb>Newtown</suburb>
+    <date>13.10.2017</date>
+    <time>13:56</time>
+    <gps_lat>-33.8939874444</gps_lat>
+    <gps_lon>151.17760775</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171013_140320997_HDR.jpg</file_name>
+    <full_path>photos\Newtown\IMG_20171013_140320997_HDR.jpg</full_path>
+    <suburb>Newtown</suburb>
+    <date>13.10.2017</date>
+    <time>14:03</time>
+    <gps_lat>-33.8960096667</gps_lat>
+    <gps_lon>151.179962167</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_140606245_HDR.jpg</file_name>
+    <full_path>photos\Newtown\IMG_20171022_140606245_HDR.jpg</full_path>
+    <suburb>Newtown</suburb>
+    <date>22.10.2017</date>
+    <time>14:06</time>
+    <gps_lat>-33.9077378333</gps_lat>
+    <gps_lon>151.174566444</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>1024</height>
+    <width>576</width>
+  </graffiti>
+  <graffiti>
     <file_name>IMG_20170820_145129714_HDR.jpg</file_name>
     <full_path>photos\Petersham\IMG_20170820_145129714_HDR.jpg</full_path>
     <suburb>Petersham</suburb>
@@ -5450,6 +5569,23 @@
     <time>13:55</time>
     <gps_lat>-33.8921063056</gps_lat>
     <gps_lon>151.197506722</gps_lon>
+    <photographer>KK</photographer>
+    <status>Removed</status>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>1024</height>
+    <width>576</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20170820_135505184_HDR_02.jpg</file_name>
+    <full_path>photos\Redfern\IMG_20170820_135505184_HDR_02.jpg</full_path>
+    <suburb>Redfern</suburb>
+    <date>22.10.2017</date>
+    <time>12:13</time>
+    <gps_lat>-33.8919140833</gps_lat>
+    <gps_lon>151.197506583</gps_lon>
     <photographer>KK</photographer>
     <status/>
     <title/>
@@ -5773,6 +5909,890 @@
     <time>15:19</time>
     <gps_lat>-33.8933560556</gps_lat>
     <gps_lon>151.212229528</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_131909039_HDR.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_131909039_HDR.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:19</time>
+    <gps_lat>-33.9085627222</gps_lat>
+    <gps_lon>151.1807005</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_131909039_HDR_02.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_131909039_HDR_02.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:19</time>
+    <gps_lat>-33.9085627222</gps_lat>
+    <gps_lon>151.1807005</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_131909039_HDR_03.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_131909039_HDR_03.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:20</time>
+    <gps_lat>-33.9085627222</gps_lat>
+    <gps_lon>151.1807005</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_131909039_HDR_04.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_131909039_HDR_04.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:18</time>
+    <gps_lat>-33.9085627222</gps_lat>
+    <gps_lon>151.1807005</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_131909039_HDR_05.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_131909039_HDR_05.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:18</time>
+    <gps_lat>-33.9086336667</gps_lat>
+    <gps_lon>151.180651167</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_131909039_HDR_06.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_131909039_HDR_06.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:20</time>
+    <gps_lat>-33.9083944722</gps_lat>
+    <gps_lon>151.180675278</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_131909039_HDR_07.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_131909039_HDR_07.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:21</time>
+    <gps_lat>-33.9083538611</gps_lat>
+    <gps_lon>151.180719639</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_132400480_HDR.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_132400480_HDR.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:24</time>
+    <gps_lat>-33.9083636667</gps_lat>
+    <gps_lon>151.180299306</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist>N4T4</artist>
+    <artist_link_1>https://www.instagram.com/n_4_t_4/</artist_link_1>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_132400480_HDR_02.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_132400480_HDR_02.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:24</time>
+    <gps_lat>-33.9085835556</gps_lat>
+    <gps_lon>151.180032111</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_132400480_HDR_03.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_132400480_HDR_03.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:26</time>
+    <gps_lat>-33.9085952778</gps_lat>
+    <gps_lon>151.179661417</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_132400480_HDR_04.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_132400480_HDR_04.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:26</time>
+    <gps_lat>-33.9085077222</gps_lat>
+    <gps_lon>151.179705389</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_132400480_HDR_05.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_132400480_HDR_05.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:27</time>
+    <gps_lat>-33.9085077222</gps_lat>
+    <gps_lon>151.179705389</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_132801870_HDR.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_132801870_HDR.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:28</time>
+    <gps_lat>-33.9087462778</gps_lat>
+    <gps_lon>151.179034806</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_132801870_HDR_02.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_132801870_HDR_02.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:28</time>
+    <gps_lat>-33.9087462778</gps_lat>
+    <gps_lon>151.179034806</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_132801870_HDR_03.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_132801870_HDR_03.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:28</time>
+    <gps_lat>-33.908767</gps_lat>
+    <gps_lon>151.178928083</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>577</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_132801870_HDR_04.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_132801870_HDR_04.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:28</time>
+    <gps_lat>-33.908767</gps_lat>
+    <gps_lon>151.178928083</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_133308706_HDR.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_133308706_HDR.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:33</time>
+    <gps_lat>-33.9082636667</gps_lat>
+    <gps_lon>151.180728333</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_133308706_HDR_02.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_133308706_HDR_02.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:22</time>
+    <gps_lat>-33.9082686111</gps_lat>
+    <gps_lon>151.180670583</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>1024</height>
+    <width>576</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_133308706_HDR_03.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_133308706_HDR_03.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:20</time>
+    <gps_lat>-33.9082713889</gps_lat>
+    <gps_lon>151.180803333</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_133308706_HDR_04.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_133308706_HDR_04.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:23</time>
+    <gps_lat>-33.9084071667</gps_lat>
+    <gps_lon>151.180437778</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_133308706_HDR_05.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_133308706_HDR_05.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:33</time>
+    <gps_lat>-33.9082454444</gps_lat>
+    <gps_lon>151.180786556</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_133607059_HDR.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_133607059_HDR.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:36</time>
+    <gps_lat>-33.9078275833</gps_lat>
+    <gps_lon>151.180875472</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist>Peque vrs</artist>
+    <artist_link_1>https://www.instagram.com/peque_vrs/</artist_link_1>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_133607059_HDR_02.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_133607059_HDR_02.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:35</time>
+    <gps_lat>-33.9078275833</gps_lat>
+    <gps_lon>151.180875472</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist>Peque vrs</artist>
+    <artist_link_1>https://www.instagram.com/peque_vrs/</artist_link_1>
+    <description/>
+    <height>1024</height>
+    <width>576</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_133607059_HDR_03.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_133607059_HDR_03.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:36</time>
+    <gps_lat>-33.9078275833</gps_lat>
+    <gps_lon>151.180875472</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist>Peque vrs</artist>
+    <artist_link_1>https://www.instagram.com/peque_vrs/</artist_link_1>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_133607059_HDR_04.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_133607059_HDR_04.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:34</time>
+    <gps_lat>-33.9081025556</gps_lat>
+    <gps_lon>151.18074725</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>1024</height>
+    <width>576</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_133607059_HDR_05.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_133607059_HDR_05.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:37</time>
+    <gps_lat>-33.9079178056</gps_lat>
+    <gps_lon>151.180776278</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_133607059_HDR_06.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_133607059_HDR_06.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:37</time>
+    <gps_lat>-33.9079178056</gps_lat>
+    <gps_lon>151.180776278</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>1024</height>
+    <width>576</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_133607059_HDR_07.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_133607059_HDR_07.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:38</time>
+    <gps_lat>-33.9078093056</gps_lat>
+    <gps_lon>151.1808585</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_133607059_HDR_08.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_133607059_HDR_08.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:38</time>
+    <gps_lat>-33.9078093056</gps_lat>
+    <gps_lon>151.1808585</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>1024</height>
+    <width>576</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_134003946_HDR.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_134003946_HDR.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:40</time>
+    <gps_lat>-33.9075504167</gps_lat>
+    <gps_lon>151.18078575</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_134003946_HDR_02.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_134003946_HDR_02.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:39</time>
+    <gps_lat>-33.9075504167</gps_lat>
+    <gps_lon>151.18078575</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_134003946_HDR_03.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_134003946_HDR_03.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:40</time>
+    <gps_lat>-33.9075059722</gps_lat>
+    <gps_lon>151.180882194</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_134003946_HDR_04.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_134003946_HDR_04.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:41</time>
+    <gps_lat>-33.9074393056</gps_lat>
+    <gps_lon>151.180737528</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_134231412_HDR.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_134231412_HDR.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:42</time>
+    <gps_lat>-33.9074523889</gps_lat>
+    <gps_lon>151.181207972</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_134231412_HDR_02.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_134231412_HDR_02.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:41</time>
+    <gps_lat>-33.9073466944</gps_lat>
+    <gps_lon>151.180940972</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_134752011_HDR.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_134752011_HDR.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:47</time>
+    <gps_lat>-33.9067321667</gps_lat>
+    <gps_lon>151.180874167</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>1024</height>
+    <width>576</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_134752011_HDR_02.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_134752011_HDR_02.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:48</time>
+    <gps_lat>-33.9066278611</gps_lat>
+    <gps_lon>151.180779139</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_135052399_HDR.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_135052399_HDR.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:50</time>
+    <gps_lat>-33.9069670556</gps_lat>
+    <gps_lon>151.180322278</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_135723391_HDR.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_135723391_HDR.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:57</time>
+    <gps_lat>-33.9076988056</gps_lat>
+    <gps_lon>151.178059694</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_135723391_HDR_02.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_135723391_HDR_02.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:56</time>
+    <gps_lat>-33.9077117778</gps_lat>
+    <gps_lon>151.177994472</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_135723391_HDR_03.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_135723391_HDR_03.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:56</time>
+    <gps_lat>-33.9077117778</gps_lat>
+    <gps_lon>151.177994472</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_135723391_HDR_04.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_135723391_HDR_04.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:56</time>
+    <gps_lat>-33.9077117778</gps_lat>
+    <gps_lon>151.177994472</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_135723391_HDR_05.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_135723391_HDR_05.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:56</time>
+    <gps_lat>-33.9078425278</gps_lat>
+    <gps_lon>151.178037667</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_135723391_HDR_06.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_135723391_HDR_06.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:55</time>
+    <gps_lat>-33.9077063056</gps_lat>
+    <gps_lon>151.178008389</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_135723391_HDR_07.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_135723391_HDR_07.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:55</time>
+    <gps_lat>-33.9076086111</gps_lat>
+    <gps_lon>151.178011778</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>1024</height>
+    <width>576</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_135723391_HDR_08.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_135723391_HDR_08.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>13:57</time>
+    <gps_lat>-33.9073815556</gps_lat>
+    <gps_lon>151.17791325</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_141620135_HDR.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_141620135_HDR.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>14:16</time>
+    <gps_lat>-33.9113842222</gps_lat>
+    <gps_lon>151.173932917</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_141620135_HDR_02.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_141620135_HDR_02.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>14:16</time>
+    <gps_lat>-33.9115208889</gps_lat>
+    <gps_lon>151.173984583</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_141620135_HDR_03.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_141620135_HDR_03.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>14:17</time>
+    <gps_lat>-33.9115208889</gps_lat>
+    <gps_lon>151.173984583</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_143056982_HDR.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_143056982_HDR.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>14:30</time>
+    <gps_lat>-33.9131043056</gps_lat>
+    <gps_lon>151.17238925</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_143056982_HDR_02.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_143056982_HDR_02.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>14:31</time>
+    <gps_lat>-33.9131043056</gps_lat>
+    <gps_lon>151.17238925</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_143056982_HDR_03.jpg</file_name>
+    <full_path>photos\St Peters\IMG_20171022_143056982_HDR_03.jpg</full_path>
+    <suburb>St Peters</suburb>
+    <date>22.10.2017</date>
+    <time>14:30</time>
+    <gps_lat>-33.9131043056</gps_lat>
+    <gps_lon>151.17238925</gps_lon>
     <photographer>KK</photographer>
     <status/>
     <title/>
@@ -6215,6 +7235,74 @@
     <time>16:49</time>
     <gps_lat>-33.881243</gps_lat>
     <gps_lon>151.212298889</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_143733057_HDR.jpg</file_name>
+    <full_path>photos\Sydenham\IMG_20171022_143733057_HDR.jpg</full_path>
+    <suburb>Sydenham</suburb>
+    <date>22.10.2017</date>
+    <time>14:37</time>
+    <gps_lat>-33.9165341389</gps_lat>
+    <gps_lon>151.169410056</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_144215221_HDR.jpg</file_name>
+    <full_path>photos\Sydenham\IMG_20171022_144215221_HDR.jpg</full_path>
+    <suburb>Sydenham</suburb>
+    <date>22.10.2017</date>
+    <time>14:42</time>
+    <gps_lat>-33.9173414167</gps_lat>
+    <gps_lon>151.166408972</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_144215221_HDR_02.jpg</file_name>
+    <full_path>photos\Sydenham\IMG_20171022_144215221_HDR_02.jpg</full_path>
+    <suburb>Sydenham</suburb>
+    <date>22.10.2017</date>
+    <time>14:42</time>
+    <gps_lat>-33.9173414167</gps_lat>
+    <gps_lon>151.166408972</gps_lon>
+    <photographer>KK</photographer>
+    <status/>
+    <title/>
+    <artist/>
+    <artist_link_1/>
+    <description/>
+    <height>576</height>
+    <width>1024</width>
+  </graffiti>
+  <graffiti>
+    <file_name>IMG_20171022_144215221_HDR_03.jpg</file_name>
+    <full_path>photos\Sydenham\IMG_20171022_144215221_HDR_03.jpg</full_path>
+    <suburb>Sydenham</suburb>
+    <date>22.10.2017</date>
+    <time>14:42</time>
+    <gps_lat>-33.9173414167</gps_lat>
+    <gps_lon>151.166408972</gps_lon>
     <photographer>KK</photographer>
     <status/>
     <title/>
