@@ -1,3 +1,9 @@
+##############################################################################
+#DESCRIPTION
+##############################################################################
+
+#External library to extract EXIF data (GPS, date, time, etc.) from .jpg pictures 
+
 #from PIL import Image
 #import PIL.Image
 from PIL.ExifTags import TAGS, GPSTAGS

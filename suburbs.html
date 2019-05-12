@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html id="full_page">
+<head>
+	
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106186455-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments)};
+  		gtag('js', new Date());
+  		gtag('config', 'UA-106186455-1');
+	</script>
+
+	<title>Sydney Street Art</title>
+	
+	<meta name="title" content="Sydney Street Art">
+	<meta name="description" content="Explore Sydney street art using this online database with hundreds of geotagged graffitis, precisely marked on Google Maps within all major suburbs of the city.">
+	<meta name="keywords" content="Sydney street art, street art, Sydney street-art, street-art, Sydney graffiti, graffiti, Sydney murals, murals, street art maps, street art map, street-art maps, street-art map, graffiti maps, graffiti maps, Sydney graffiti map, Sydney street art map, Sydney street-art map">
+	<meta name="author" content="Kamil Korzekwa">
+	<meta name="language" content="English">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styles.css">
+	
+	<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/favicons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/favicons/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+</head>
+
+<body onload="spinner.stop()" onscroll="stick_menu('tiles_canvas')" onresize ="stick_menu('tiles_canvas')">
+    	
+	<header id="logo" class="w3-display-container w3-border-bottom w3-border-black" onclick="window.location.href='index.html'">
+		<h1 id="logo_text" class="w3-display-middle">S Y D N E Y&nbsp S T R E E T&nbsp A R T</h1>
+	</header>
+	
+	<div id="menu_canvas">
+		<div id="top_menu" class="w3-bar w3-dark-grey w3-bottombar w3-border-black w3-large">
+			<a id="link_suburbs_large" href="suburbs.html" class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-green">Suburbs</a>
+			<a id="link_map" href="index.html" class="w3-bar-item w3-button w3-hide-small" style="width:16%">Map</a>
+			<a id="link_artists" href="artists.html" class="w3-bar-item w3-button w3-hide-small" style="width:16%">Artists</a>
+			<a id="link_suburbs" href="suburbs.html" class="w3-bar-item w3-button w3-hide-small w3-green" style="width:16%">Suburbs</a>
+			<a id="link_artworks" href="artworks.html" class="w3-bar-item w3-button w3-hide-small" style="width:16%">Artworks</a>
+			<a id="link_about" href="about.html" class="w3-bar-item w3-button w3-hide-small" style="width:16%">About</a>
+			<a id="link_fb" href="https://www.facebook.com/SydneyGraffitis/" target="_blank" style="font-family:facebook_font;width:10%" class="w3-bar-item w3-button w3-hide-small">fb</a>
+			<a id="link_insta" href="https://www.instagram.com/sydneygraffitis/" target="_blank" style="font-family:facebook_font;width:10%" class="w3-bar-item w3-button w3-hide-small">Insta</a>
+            <a id="link_expand" href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="expand_menu()">&#9776;</a>
+            <a id="link_top_page" href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="back_to_top()">&#8679;</a>
+		</div>	
+		<div id="top_menu_expanded" class="w3-bar-block w3-dark-grey w3-hide w3-hide-large w3-hide-medium w3-large">
+			<a id="link_map_expanded" href="index.html" class="w3-bar-item w3-button">Map</a>
+			<a id="link_artists_expanded" href="artists.html" class="w3-bar-item w3-button">Artists</a>
+			<a id="link_artworks_expanded" href="artworks.html" class="w3-bar-item w3-button">Artworks</a>
+			<a id="link_about_expanded" href="about.html" class="w3-bar-item w3-button">About</a>
+			<a id="link_fb_expanded" href="https://www.facebook.com/SydneyGraffitis/" target="_blank" style="font-family:facebook_font" class="w3-bar-item w3-button">fb</a>
+			<a id="link_insta_expanded" href="https://www.instagram.com/sydneygraffitis/" target="_blank" style="font-family:facebook_font" class="w3-bar-item w3-button w3-bottombar w3-border-black">Insta</a>
+		</div>
+	</div>
+	
+	<div id="tiles_canvas" class="w3-row-padding after_menu">
+		<div class="w3-third w3-margin-top">
+			<div class="w3-card w3-green w3-hover-grey w3-color-text-white w3-hover-text-black" style="cursor:pointer" onclick="location.href ='suburb.html?id=Newtown'">
+				<img src="photos/Newtown/Newtown_004.jpg" style="width:100%">
+				<div class="w3-container">
+					<h5 style="text-align:center" id="test"><b>Newtown</b></h5>
+                    <h6 style="text-align:center"><b>(156 artworks)</b></h6>
+				</div>
+			</div>
+		</div>
+        <div class="w3-third w3-margin-top">
+			<div class="w3-card w3-green w3-hover-grey w3-color-text-white w3-hover-text-black" style="cursor:pointer" onclick="location.href ='suburb.html?id=Bondi'">
+				<img src="photos/Bondi/Bondi_001.jpg" style="width:100%">
+				<div class="w3-container">
+					<h5 style="text-align:center" id="test"><b>Bondi</b></h5>
+                    <h6 style="text-align:center"><b>(64 artworks)</b></h6>
+				</div>
+			</div>
+		</div>
+        <div class="w3-third w3-margin-top">
+			<div class="w3-card w3-green w3-hover-grey w3-color-text-white w3-hover-text-black" style="cursor:pointer" onclick="location.href ='suburb.html?id=StPeters'">
+				<img src="photos/St Peters/StPeters_001.jpg" style="width:100%">
+				<div class="w3-container">
+					<h5 style="text-align:center"><b>St Peters</b></h5>
+                    <h6 style="text-align:center"><b>(52 artworks)</b></h6>
+				</div>
+			</div>
+		</div>
+        <div class="w3-third w3-margin-top">
+			<div class="w3-card w3-green w3-hover-grey w3-color-text-white w3-hover-text-black tile" onclick="location.href ='suburb.html?id=SurryHills'">
+				<img src="photos/Surry Hills/SurryHills_004.jpg" style="width:100%">
+				<div class="w3-container">
+					<h5 style="text-align:center"><b>Surry Hills</b></h5>
+                    <h6 style="text-align:center"><b>(40 artworks)</b></h6>
+				</div>
+			</div>
+		</div>
+        <div class="w3-third w3-margin-top">
+			<div class="w3-card w3-green w3-hover-grey w3-color-text-white w3-hover-text-black w3-bold tile" onclick="location.href ='suburb.html?id=Enmore'">
+				<img src="photos/Enmore/Enmore_005.jpg" style="width:100%">
+				<div class="w3-container">
+					<h5 style="text-align:center"><b>Enmore</b></h5>
+                    <h6 style="text-align:center"><b>(39 artworks)</b></h6>
+				</div>
+			</div>
+		</div>
+        <div class="w3-third w3-margin-top">
+			<div class="w3-card w3-green w3-hover-grey w3-color-text-white w3-hover-text-black tile" onclick="location.href ='suburb.html?id=Glebe'">
+				<img src="photos/Glebe/Glebe_005_02.jpg" style="width:100%">
+				<div class="w3-container">
+					<h5 style="text-align:center"><b>Glebe</b></h5>
+                    <h6 style="text-align:center"><b>(35 artworks)</b></h6>
+				</div>
+			</div>
+		</div>
+        <div class="w3-third w3-margin-top">
+			<div class="w3-card w3-green w3-hover-grey w3-color-text-white w3-hover-text-black tile" onclick="location.href ='suburb.html?id=Redfern'">
+				<img src="photos/Redfern/Redfern_002_03.jpg" style="width:100%">
+				<div class="w3-container">
+					<h5 style="text-align:center"><b>Redfern</b></h5>
+                    <h6 style="text-align:center"><b>(32 artworks)</b></h6>
+				</div>
+			</div>
+		</div>
+        <div class="w3-third w3-margin-top">
+			<div class="w3-card w3-green w3-hover-grey w3-color-text-white w3-hover-text-black tile" onclick="location.href ='suburb.html?id=Marrickville'">
+				<img src="photos/Marrickville/Marrickville_002.jpg" style="width:100%">
+				<div class="w3-container">
+					<h5 style="text-align:center"><b>Marrickville</b></h5>
+                    <h6 style="text-align:center"><b>(24 artworks)</b></h6>
+				</div>
+			</div>
+		</div>
+        <div class="w3-third w3-margin-top">
+			<div class="w3-card w3-green w3-hover-grey w3-color-text-white w3-hover-text-black tile" onclick="location.href ='suburb.html?id=Camperdown'">
+				<img src="photos/Camperdown/Camperdown_003_02.jpg" style="width:100%">
+				<div class="w3-container">
+					<h5 style="text-align:center"><b>Camperdown</b></h5>
+                    <h6 style="text-align:center"><b>(21 artworks)</b></h6>
+				</div>
+			</div>
+		</div>
+        <div class="w3-third w3-margin-top">
+			<div class="w3-card w3-green w3-hover-grey w3-color-text-white w3-hover-text-black tile" onclick="location.href ='suburb.html?id=Chippendale'">
+				<img src="photos/Chippendale/Chippendale_001_02.jpg" style="width:100%">
+				<div class="w3-container">
+					<h5 style="text-align:center"><b>Chippendale</b></h5>
+                    <h6 style="text-align:center"><b>(20 artworks)</b></h6>
+				</div>
+			</div>
+		</div>        
+        <div class="w3-third w3-margin-top">
+			<div class="w3-card w3-green w3-hover-grey w3-color-text-white w3-hover-text-black tile" onclick="location.href ='suburb.html?id=Annandale'">
+				<img src="photos/annandale_cover.jpg" style="width:100%">
+				<div class="w3-container">
+					<h5 style="text-align:center"><b>Annandale</b></h5>
+                    <h6 style="text-align:center"><b>(15 artworks)</b></h6>
+				</div>
+			</div>
+		</div>    
+        <div class="w3-third w3-margin-top">
+			<div class="w3-card w3-green w3-hover-grey w3-color-text-white w3-hover-text-black tile" onclick="location.href ='suburb.html?id=Rozelle'">
+				<img src="photos/rozelle_cover.jpg" style="width:100%">
+				<div class="w3-container">
+					<h5 style="text-align:center"><b>Rozelle</b></h5>
+                    <h6 style="text-align:center"><b>(14 artworks)</b></h6>
+				</div>
+			</div>
+		</div> 
+        <div class="w3-third w3-margin-top">
+			<div class="w3-card w3-green w3-hover-grey w3-color-text-white w3-hover-text-black tile" onclick="location.href ='suburb.html?id=Darlinghurst'">
+				<img src="photos/Darlinghurst/Darlinghurst_001_06.jpg" style="width:100%">
+				<div class="w3-container">
+					<h5 style="text-align:center"><b>Darlinghurst</b></h5>
+                    <h6 style="text-align:center"><b>(12 artworks)</b></h6>
+				</div>
+			</div>
+		</div> 
+        <div class="w3-third w3-margin-top">
+			<div class="w3-card w3-green w3-hover-grey w3-color-text-white w3-hover-text-black tile">
+				<img src="photos/Potts Point/PottsPoint_003.jpg" style="width:100%" onclick="location.href ='suburb.html?id=PottsPoint'">
+				<div class="w3-container">
+					<h5 style="text-align:center"><b>Potts Point</b></h5>
+                    <h6 style="text-align:center"><b>(11 artworks)</b></h6>
+				</div>
+			</div>
+		</div>
+        <div class="w3-third w3-margin-top">
+			<div class="w3-card w3-green w3-hover-grey w3-color-text-white w3-hover-text-black tile">
+				<img src="photos/Woolloomooloo/Woolloomooloo_004.jpg" style="width:100%" onclick="location.href ='suburb.html?id=Woolloomooloo'">
+				<div class="w3-container">
+					<h5 style="text-align:center"><b>Woolloomooloo</b></h5>
+                    <h6 style="text-align:center"><b>(11 artworks)</b></h6>
+				</div>
+			</div>
+		</div>
+        <div class="w3-third w3-margin-top">
+			<div class="w3-card w3-green w3-hover-grey w3-color-text-white w3-hover-text-black tile" onclick="location.href ='suburb.html?id=Others'">
+				<img src="photos/Alexandria/Alexandria_001.jpg" style="width:100%">
+				<div class="w3-container">
+					<h5 style="text-align:center"><b>Others</b></h5>
+                    <h6 style="text-align:center"><b>(37 artworks)</b></h6>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+    <script src="scripts/spin.js"></script>
+	<script>
+        var spinner=new Spinner({color:'#fff',scale:3, lines: 12}).spin(document.getElementById("full_page"));
+    </script>
+	<script src="scripts/menu.js"></script>
+
+	</body>
+</html>

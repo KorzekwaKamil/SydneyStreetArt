@@ -1,0 +1,8 @@
+<?xml-stylesheet type="text/xsl" href="data.xsl"?>
+<full_info>
+  <name>Marrickville</name>
+  <description>Being the largest suburb of the Inner West, Marrickville has a mostly residential character, but the bohemian vibe is constantly expanding, with some already calling Marrickville “the new Newtown”. With numerous foodie eateries, growing graffiti scene and incredible venues like The Factory Theatre, which hosts a very diverse selection of music events every week, it can definitely deserve this title in the near future. Of course, if you don’t mind the deafening sounds of planes’ engines that fly overhead every 10 minutes to land on the neighbouring airport.</description>
+  <gps_lat>-33.903532</gps_lat>
+  <gps_lon>151.166793</gps_lon>
+  <gps_zoom>16</gps_zoom>
+</full_info>

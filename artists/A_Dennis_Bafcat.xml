@@ -1,0 +1,106 @@
+<?xml-stylesheet type="text/xsl" href="data.xsl"?>
+<graffiti_list>
+  <graffiti id="Annandale_002">
+    <file_name id="Annandale_002_file_name">Annandale_002.jpg</file_name>
+    <full_path id="Annandale_002_full_path">photos\Annandale\Annandale_002.jpg</full_path>
+    <suburb id="Annandale_002_suburb">Annandale</suburb>
+    <date id="Annandale_002_date">13.10.2017</date>
+    <time id="Annandale_002_time">13:37</time>
+    <gps_lat id="Annandale_002_gps_lat">-33.887022</gps_lat>
+    <gps_lon id="Annandale_002_gps_lon">151.174379083</gps_lon>
+    <photographer id="Annandale_002_photographer">KK</photographer>
+    <status id="Annandale_002_status"/>
+    <title id="Annandale_002_title"/>
+    <artist id="Annandale_002_artist">Andrew Dennis</artist>
+    <artist_link_1 id="Annandale_002_artist_link_1">http://www.studiodennis.com/</artist_link_1>
+    <description id="Annandale_002_description"/>
+    <height id="Annandale_002_height">576</height>
+    <width id="Annandale_002_width">1024</width>
+  </graffiti>
+  <graffiti id="Annandale_002_02">
+    <file_name id="Annandale_002_02_file_name">Annandale_002_02.jpg</file_name>
+    <full_path id="Annandale_002_02_full_path">photos\Annandale\Annandale_002_02.jpg</full_path>
+    <suburb id="Annandale_002_02_suburb">Annandale</suburb>
+    <date id="Annandale_002_02_date">13.10.2017</date>
+    <time id="Annandale_002_02_time">13:19</time>
+    <gps_lat id="Annandale_002_02_gps_lat">-33.88725375</gps_lat>
+    <gps_lon id="Annandale_002_02_gps_lon">151.174428111</gps_lon>
+    <photographer id="Annandale_002_02_photographer">KK</photographer>
+    <status id="Annandale_002_02_status"/>
+    <title id="Annandale_002_02_title"/>
+    <artist id="Annandale_002_02_artist">Andrew Dennis</artist>
+    <artist_link_1 id="Annandale_002_02_artist_link_1">http://www.studiodennis.com/</artist_link_1>
+    <description id="Annandale_002_02_description"/>
+    <height id="Annandale_002_02_height">576</height>
+    <width id="Annandale_002_02_width">1024</width>
+  </graffiti>
+  <graffiti id="Newtown_039">
+    <file_name id="Newtown_039_file_name">Newtown_039.jpg</file_name>
+    <full_path id="Newtown_039_full_path">photos\Newtown\Newtown_039.jpg</full_path>
+    <suburb id="Newtown_039_suburb">Newtown</suburb>
+    <date id="Newtown_039_date">26.08.2017</date>
+    <time id="Newtown_039_time">12:06</time>
+    <gps_lat id="Newtown_039_gps_lat">-33.8974566389</gps_lat>
+    <gps_lon id="Newtown_039_gps_lon">151.176301194</gps_lon>
+    <photographer id="Newtown_039_photographer">KK</photographer>
+    <status id="Newtown_039_status"/>
+    <title id="Newtown_039_title"/>
+    <artist id="Newtown_039_artist">Andrew Dennis</artist>
+    <artist_link_1 id="Newtown_039_artist_link_1">http://www.studiodennis.com/</artist_link_1>
+    <description id="Newtown_039_description"/>
+    <height id="Newtown_039_height">576</height>
+    <width id="Newtown_039_width">1024</width>
+  </graffiti>
+  <graffiti id="Newtown_039_02">
+    <file_name id="Newtown_039_02_file_name">Newtown_039_02.jpg</file_name>
+    <full_path id="Newtown_039_02_full_path">photos\Newtown\Newtown_039_02.jpg</full_path>
+    <suburb id="Newtown_039_02_suburb">Newtown</suburb>
+    <date id="Newtown_039_02_date">26.08.2017</date>
+    <time id="Newtown_039_02_time">12:06</time>
+    <gps_lat id="Newtown_039_02_gps_lat">-33.8974566389</gps_lat>
+    <gps_lon id="Newtown_039_02_gps_lon">151.176301194</gps_lon>
+    <photographer id="Newtown_039_02_photographer">KK</photographer>
+    <status id="Newtown_039_02_status"/>
+    <title id="Newtown_039_02_title"/>
+    <artist id="Newtown_039_02_artist">Andrew Dennis</artist>
+    <artist_link_1 id="Newtown_039_02_artist_link_1">http://www.studiodennis.com/</artist_link_1>
+    <description id="Newtown_039_02_description"/>
+    <height id="Newtown_039_02_height">1024</height>
+    <width id="Newtown_039_02_width">576</width>
+  </graffiti>
+    <graffiti id="Pyrmont_002">
+    <file_name id="Pyrmont_002_file_name">Pyrmont_002.jpg</file_name>
+    <full_path id="Pyrmont_002_full_path">photos\Pyrmont\Pyrmont_002.jpg</full_path>
+    <suburb id="Pyrmont_002_suburb">Pyrmont</suburb>
+    <date id="Pyrmont_002_date">25.04.2018</date>
+    <time id="Pyrmont_002_time">13:16</time>
+    <gps_lat id="Pyrmont_002_gps_lat">-33.8698669722</gps_lat>
+    <gps_lon id="Pyrmont_002_gps_lon">151.193050972</gps_lon>
+    <photographer id="Pyrmont_002_photographer">KK</photographer>
+    <status id="Pyrmont_002_status"/>
+    <title id="Pyrmont_002_title"/>
+    <artist id="Pyrmont_002_artist">Andrew Dennis/Bafcat</artist>
+    <artist_link_1 id="Pyrmont_002_artist_link_1">http://www.studiodennis.com/</artist_link_1>
+    <artist_link_2 id="Pyrmont_002_artist_link_2">https://www.instagram.com/bafcat/</artist_link_2>
+    <description id="Pyrmont_002_description"/>
+    <height id="Pyrmont_002_height">768</height>
+    <width id="Pyrmont_002_width">1024</width>
+  </graffiti>
+  <graffiti id="StPeters_008">
+    <file_name id="StPeters_008_file_name">StPeters_008.jpg</file_name>
+    <full_path id="StPeters_008_full_path">photos\St Peters\StPeters_008.jpg</full_path>
+    <suburb id="StPeters_008_suburb">St Peters</suburb>
+    <date id="StPeters_008_date">22.10.2017</date>
+    <time id="StPeters_008_time">13:47</time>
+    <gps_lat id="StPeters_008_gps_lat">-33.9067321667</gps_lat>
+    <gps_lon id="StPeters_008_gps_lon">151.180874167</gps_lon>
+    <photographer id="StPeters_008_photographer">KK</photographer>
+    <status id="StPeters_008_status"/>
+    <title id="StPeters_008_title"/>
+    <artist id="StPeters_008_artist">Andrew Dennis</artist>
+    <artist_link_1 id="StPeters_008_artist_link_1">http://www.studiodennis.com/</artist_link_1>
+    <description id="StPeters_008_description"/>
+    <height id="StPeters_008_height">1024</height>
+    <width id="StPeters_008_width">576</width>
+  </graffiti>
+</graffiti_list>

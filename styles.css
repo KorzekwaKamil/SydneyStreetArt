@@ -1,13 +1,17 @@
+		/* Fonts */
+
 		@font-face {
 			font-family: graffiti_font;
-			src: url("fonts/PaintCans.ttf");
+			src: url("fonts/freshmarker.ttf");
 		}
         
         @font-face {
 			font-family: facebook_font;
 			src: url("fonts/FACEBOLF.otf");
 		}
-		
+
+		/* Full webpage */
+
 		html, body {
 			height: 100%;
 			width: 100%;
@@ -17,112 +21,224 @@
 			background-color: black;
 		}
 
-		header {
-			height:10vh;
-			text-align: center;
-			font-family: graffiti_font;
-			font-size:4.5vmin;
-			font-weight:bold;
-			color: black;
-			background-color: white;
-		}
-		
-		h1 {
-			font-size: 4.5vmin;
-			line-height:0;
-		}
-		
-		#top_menu {
-			height:7.5vh;
-			text-align: center;
-			padding: 1.5vmin 1.5vmin 0vmin 1.5vmin;   
-			background-color: black;
-			color: white;
-		}
-		
-		.top_menu_links {
-			width:100%;
-			table-layout:fixed;
-			font-size: calc(2.5vmin + 0.3vw); 
-			border:0.4vmin solid white;
-			border-radius:1vmin;
-            font-family: 'Indie Flower', cursive;
-		}
-		
-		.top_menu_links a {
-			color:white;
-			text-decoration: none;
-			transition:font-size 0.2s;
-		}
-		
-		.top_menu_links a:hover {
-			font-size:calc(2.3vmin + 0.2vw);
-		}
-		
-		#main_frame {
-			width:100%;
-			height:78vh;
-			border:none;
-			margin:0;
-		}
-		
-		.external_margin {
-			height: 99.99%;
-			width: 1.5%;
-			margin: 0;
-			background-color: black;
-		}
-		
-		.empty_margin {
-			height: 99.99vh;
-			width: 0%;
-			margin: 0;
-			background-color: black;
-		}
-		
-		.middle_margin_horizontal {
-			float: left;
-			height: 99.99vh;
-			width: 1%;
-			margin: 0;
-			background-color: black;
-		}
-        
-        .middle_margin_vertical {
-			float: left;
-			height: 1%;
-			width: 100%;
-			margin: 0;
-			background-color: black;
-		}
-		
-		.map_container_horizontal {
-			float: right;
-			height: 99.99vh;
-			width: 40%;
-			margin: 0;
-			background-color: black;
-			color:white;
-            position:relative;
+		/* Logo */
+
+		#logo {
+			height:100px;
+            width:100%;
+			cursor:pointer;
+			background-color: white;	
+            position:fixed;
+            top:0;
+            left:0;
+            z-index:300;
 		}
 
-        .map_container_vertical {
-			float: left;
-			height: 49.49vh;
-			width: 100%;
-			margin: 0;
-			background-color: black;
-			color:white;
-            position:relative;
+		#logo_single_graffiti {
+			height:100px;
+            width:100%;
+			cursor:pointer;
+			background-color: white;	
+            position:fixed;
+            top:0;
+            left:0;
+            z-index:300;
 		}
+
+		#logo_text {
+			width:100%;
+			font-family: graffiti_font;
+			font-size: calc(2.5vw + 10px);
+			line-height:0;
+			text-align:center;
+			margin:0;
+			color: black;
+		}
+
+		/* Top menu */
+
+		#menu_canvas {
+            width:100%;
+            position:fixed;
+            top:100px;
+            left:0;
+            z-index:300;
+        }
+
+		.sticky {
+            width:100%;
+            position: fixed !important;
+            top:0 !important;
+            left:0;
+            z-index:100;
+	     }
+
+	     .after_menu {
+            padding-top:140px;
+        }
 		
-        #map_canvas {
-			height: 100%;
-			width: 100%;
-			margin: 0;
-            border-radius:2vmin;
+		/* Map subpage*/
+		
+		.canvas_main {
+			height: 80vh;
 		}
-        	
+
+		#graffiti {
+			max-width:100%;
+			max-height:100%;
+			width: auto;
+			height: auto;
+			cursor:pointer;
+		}
+
+		#graffiti_description {
+            cursor:pointer;
+            line-height:4vmax;
+            background-color:rgba(0,0,0,0.5);
+            font-family: 'Roboto', sans-serif;
+			text-align:center;
+			color:white;
+            font-size:2vmax;            
+        }
+
+        .graffiti_buttons {
+            width:8%;
+            cursor:pointer;
+            z-index:3;   
+		}
+
+		.graffiti_buttons img{
+			opacity:0.5;
+            cursor:pointer;
+            max-height:100%;
+            max-width:100%;
+            width: auto;
+			height: auto;
+		}
+
+		.graffiti_buttons img:hover {
+			opacity:1;
+		}
+
+		#info_text {
+			line-height:2.5vmax;
+			text-align: center;			
+			width:100%;
+           	font-family: 'Roboto', sans-serif;
+            font-size:2.5vmax;
+			color:white;
+        }
+
+	     /* Galleries on all subpages */
+
+		.gallery_canvas img {
+			cursor:pointer;
+			max-height:100%;
+			max-width:100%;
+		}        
+		
+		.gallery_canvas img:hover {
+			-webkit-filter: grayscale(100%);
+		}
+	
+		.selected {
+             box-shadow:0 0 0 3px white;
+        }
+
+	     /* Artists and suburbs subpages */
+
+	    .tile {
+            cursor:pointer;
+        }
+
+		 /* Single artist and suburb subpages */
+
+		 #info_canvas {
+            position:fixed;
+            top:inherit;
+            left:inherit;
+            padding-right:22px;
+            width:inherit;
+        }
+
+        #description_canvas {
+            text-align:center;
+            height:calc(50vh - 80px);
+            overflow-y:auto;
+        }
+
+		 .sticky_map {
+            position: fixed;
+            top:100px;
+			z-index:100;
+            width:inherit;
+	     }
+
+        /* Single graffiti subpage - TO BE CHANGED*/
+        
+        #graffiti_data {
+			width:100%;
+			table-layout:fixed;
+            color:white; 
+            text-decoration: none;
+			font-size: 15px;
+			font-family: 'Roboto', sans-serif;
+            vertical-align:center;
+		}
+        
+        #graffiti_data a{
+            color:black;
+            background-color:white;
+            text-decoration:none;
+		}
+
+        #single_master_canvas {
+            padding-top:100px;
+        }
+
+        #single_map_canvas {
+            height:500px;
+        }
+
+        /* Small screen modifications */
+
+        @media only screen and (max-width: 600px) {
+            #logo {
+                position:relative;
+                height:60px;
+            }
+            #logo_single_graffiti {
+                height:60px;
+            }
+            #logo_text {
+                font-size: 4vw !important;
+            }
+            #menu_canvas {
+                position:static;
+            }
+            #info_canvas {
+                position:static;
+            }
+            .after_menu {
+                padding-top:0;
+            }
+            #description_canvas {
+                height:auto;
+            }
+            .canvas_main {
+                height: 40vh !important;
+            }
+            #single_master_canvas {
+                padding-top:60px;
+            }
+            #single_map_canvas {
+               height:300px;
+        }
+           
+        }
+
+        /* Maybe remove */
+
         #map_group_button {
             position:absolute;
             background-color:white;
@@ -142,229 +258,4 @@
         #map_group_button:hover {
             background-color:#EBEBEB;
             color:black;
-        }
-        
-		.graffiti_canvas_horizontal {
-			float: right;
-			height: 99.99vh;
-			width: 56%;
-			line-height:99.99vh;
-			text-align:center;
-			margin: 0;
-			background-color: black;
-			color: white;	
-            position:relative
-		}
-		
-		.graffiti_canvas_vertical {
-			float: left;
-			height: 49.49vh;
-			width: 100%;
-			line-height:49.49vh;
-			text-align:center;
-			margin: 0;
-			background-color: black;
-			color: white;	
-            position:relative;
-		}
-		
-		.graffiti_canvas_horizontal img {
-            max-width:100%;
-			max-height:100%;
-			vertical-align:middle;
-			width: auto;
-			height: auto;
-			margin-left: auto;
-			margin-right: auto;
-            border-radius:2vmin;
-            z-index:2;      
-		}		
-
-		.graffiti_canvas_vertical img {
-			max-width:100%;
-			max-height:100%;
-			vertical-align:middle;
-			width: auto;
-			height: auto;
-			margin-left: auto;
-			margin-right: auto;
-            border-radius:2vmin;
-            z-index:2;
-		}	
-        
-        .graffiti_description_horizontal {
-            cursor:pointer;
-            line-height:4vmax;
-            position:absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color:rgba(0,0,0,0.5);
-            font-family: 'Indie Flower', cursive;
-            font-size:2vmax;            
-        }
-        
-        .graffiti_description_vertical {
-            cursor:pointer;
-            line-height:6vmax;
-            position:absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color:rgba(0,0,0,0.5);
-            font-family: 'Indie Flower', cursive;
-            font-size:3vmax;
-        }
-        
-        .graffiti_buttons {
-            height:99.99%;
-            width:8%;
-            position:absolute;
-            top:50%;
-            transform: translate(0%, -50%);
-            cursor:pointer;
-            z-index:3;
-            
-		}
-        
-        .graffiti_buttons img{
-			opacity:0.5;
-            cursor:pointer;
-            max-height:100%;
-            max-width:100%;
-            width: auto;
-			height: auto;
-		}
-
-		.graffiti_buttons img:hover {
-			opacity:1;
-		}
-
-        #info_text {
-			line-height:2.5vmax;
-            position:absolute;
-            left:50%;
-            top:50%;
-            transform: translate(-50%, -50%);
-            font-family: 'Indie Flower', cursive;
-            font-size:2.5vmax;
-        }
-       
-		#gallery_canvas {
-			display:block;
-			vertical-align:middle;
-			overflow-x: hidden;
-			overflow-y:auto;
-			float: left;
-			height: 90vh;
-			width: 100%;
-			margin: auto;
-			background-color: black;
-			color:white;
-			font-size:100px;
-			text-align:center;			
-		}
-		
-		#gallery_canvas img {
-			display:inline-block;
-			vertical-align:middle;
-			cursor:pointer;
-			height: 15vmax;
-			margin-left: 0.3vw;
-			margin-right: 0.3vw;
-			margin-top: auto;
-			margin-bottom: 1.5vmax;
-			transition:transform 0.3s;
-            border-radius:10px;
-		}
-		
-		#gallery_canvas img:hover {
-			transform:scale(1.1,1.1);
-		}
-		
-  		.footer {
-			float: left;
-			height: 5vh;
-			margin: 0;
-			background-color: black;
-			color:white;
-			padding-top:2vh;
-            font-family: 'Indie Flower', cursive;            
-		}		
-        
-		.about_text_canvas_horizontal {
-			display:table;
-			float: left;
-			height: 90vh;
-			width: 56%;
-			text-align:center;
-			margin: auto;
-			background-color: black;
-			color: white;		
-			font-size:calc(1.6vh + 0.6vw);		
-            font-family:'Roboto', sans-serif;            
-		}
-		
-		.about_text_canvas_vertical {
-			display:table;
-			float: left;
-			height: 55vh;
-			width: 99%;
-			text-align:center;
-			margin: 0;
-			background-color: black;
-			color: white;	
-			font-size:calc(1.1vh + 1.0vw);
-            font-family:'Roboto', sans-serif;			
-		}
-		
-		.about_photo_canvas_horizontal {
-			float: right;
-			height: 90vh;
-			width: 40%;
-			margin: 0;
-			background-color: black;
-			color:white;
-			line-height:90vh;
-			text-align:center;
-			float:left;
-		}
-		
-		.about_photo_canvas_vertical {
-			float: left;
-			height: 35vh;
-			width: 99%;
-			margin: 0;
-			background-color: black;
-			color:white;
-			line-height:0vh;
-			text-align:center;
-			float:left;
-		}
-        
-        #graffiti_data {
-			width:100%;
-			table-layout:fixed;
-            color:white; 
-            font-family: 'Indie Flower', cursive;
-            vertical-align:center;
-		}
-        
-        #graffiti_data  a{
-            color:black;
-            background-color:white;
-            text-decoration:none;
-		}
-        
-        .centered_block {
-            text-align: center;
-            white-space: nowrap;
-        }
- 
-        .centered_block:before {
-            content: '';
-            display: inline-block;
-            height: 100%;
-            vertical-align: middle;
-            margin-right: -0.25em;
         }

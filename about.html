@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html id="full_page">
+<head>
+	
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106186455-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments)};
+  		gtag('js', new Date());
+  		gtag('config', 'UA-106186455-1');
+	</script>
+	<title>Sydney Street Art</title>
+	
+	<meta name="title" content="Sydney Street Art">
+	<meta name="description" content="Explore Sydney street art using this online database with hundreds of geotagged graffitis, precisely marked on Google Maps within all major suburbs of the city.">
+	<meta name="keywords" content="Sydney street art, street art, Sydney street-art, street-art, Sydney graffiti, graffiti, Sydney murals, murals, street art maps, street art map, street-art maps, street-art map, graffiti maps, graffiti maps, Sydney graffiti map, Sydney street art map, Sydney street-art map">
+	<meta name="author" content="Kamil Korzekwa">
+	<meta name="language" content="English">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styles.css">
+	
+	<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/favicons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/favicons/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+</head>
+
+<body onload="spinner.stop()" onscroll="stick_menu('master_canvas')" onresize ="stick_menu('master_canvas')">
+
+	<header id="logo" class="w3-display-container w3-border-bottom w3-border-black" onclick="window.location.href='index.html'">
+		<h1 id="logo_text" class="w3-display-middle">S Y D N E Y&nbsp S T R E E T&nbsp A R T</h1>
+	</header>
+	
+	<div id="menu_canvas">
+		<div id="top_menu" class="w3-bar w3-dark-grey w3-bottombar w3-border-black w3-large">
+			<a id="link_about_large" href="about.html" class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-deep-orange">About</a>
+			<a id="link_map" href="index.html" class="w3-bar-item w3-button w3-hide-small" style="width:16%">Map</a>
+			<a id="link_artists" href="artists.html" class="w3-bar-item w3-button w3-hide-small" style="width:16%">Artists</a>
+			<a id="link_suburbs" href="suburbs.html" class="w3-bar-item w3-button w3-hide-small" style="width:16%">Suburbs</a>
+			<a id="link_artworks" href="artworks.html" class="w3-bar-item w3-button w3-hide-small" style="width:16%">Artworks</a>
+			<a id="link_about" href="about.html" class="w3-bar-item w3-button w3-hide-small w3-deep-orange" style="width:16%">About</a>
+			<a id="link_fb" href="https://www.facebook.com/SydneyGraffitis/" target="_blank" style="font-family:facebook_font;width:10%" class="w3-bar-item w3-button w3-hide-small">fb</a>
+			<a id="link_insta" href="https://www.instagram.com/sydneygraffitis/" target="_blank" style="font-family:facebook_font;width:10%" class="w3-bar-item w3-button w3-hide-small">Insta</a>
+            <a id="link_expand" href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="expand_menu()">&#9776;</a>
+            <a id="link_top_page" href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="back_to_top()">&#8679;</a>
+		</div>	
+		<div id="top_menu_expanded" class="w3-bar-block w3-dark-grey w3-hide w3-hide-large w3-hide-medium w3-large">
+			<a id="link_map_expanded" href="index.html" class="w3-bar-item w3-button">Map</a>
+			<a id="link_artists_expanded" href="artists.html" class="w3-bar-item w3-button">Artists</a>
+			<a id="link_suburbs_expanded" href="suburbs.html" class="w3-bar-item w3-button">Suburbs</a>
+			<a id="link_artworks_expanded" href="artworks.html" class="w3-bar-item w3-button">Artworks</a>
+			<a id="link_fb_expanded" href="https://www.facebook.com/SydneyGraffitis/" target="_blank" style="font-family:facebook_font" class="w3-bar-item w3-button">fb</a>
+			<a id="link_insta_expanded" href="https://www.instagram.com/sydneygraffitis/" target="_blank" style="font-family:facebook_font" class="w3-bar-item w3-button w3-bottombar w3-border-black">Insta</a>
+		</div>
+	</div>
+
+	<div id="master_canvas" class="w3-row-padding w3-margin-top after_menu">
+		<div id="about_text_canvas" class="w3-col m7 l7 w3-color-text-white w3-large" style="color:white">
+			<p><b>Past</b><p>
+			<p>
+				I came to Sydney in January 2017 for a postdoc in quantum information theory. During my first few days here I stayed in Camperdown, where I was immediately exposed to the incredible richness of this city's street art scene. Encountering more and more amazing works around every corner, I felt that these fragile and temporary artworks should somehow be preserved and catalogued, so I decided to start this project. All through 2017 and 2018 street art hunting was my way to explore this extraordinary city: every couple of weeks or so I went on a long walk to a new suburb and, armed with my mobile, looked for new pieces.			  
+			</p>
+			<p><b>Present & Future</b><p>
+			<p>
+				As I have left Australia in May 2019, I can no longer directly work on expanding the local graffiti database. However, the project is now fully automated, so with a little bit of support from Sydneysiders, it can still keep growing. Simply send me the geotagged pictures of street art you found and I will upload it to the website within a couple of days. Additionally, I would also like to collect information on the artists responsible for the works presented here, and use the website as a platform to promote them. Finally, I am planning to run a larger platform streetartmaps.com that would aggregate geotagged photos of great graffiti all around the world. If you are interested in joining the project and helping me in any way then please contact me. 
+			</p>
+			<p><b>Big thank you for all help & support to:</b> Zu, Krystian and Angela. </p>
+            <p><b>Contact:</b> korzekwa.kamil@gmail.com</p>
+		</div>
+        <div id="about_photo_canvas" class="w3-col m5 l5 canvas_main w3-display-container">
+			<img class="w3-display-middle" style="max-width:100%;max-height:100%;width:auto;height:auto;" src="graphics/about.jpg">
+        </div>		
+	</div>
+	
+	<script src="scripts/spin.js"></script>
+	<script>
+        var spinner=new Spinner({color:'#fff',scale:3, lines: 12}).spin(document.getElementById("full_page"));
+    </script>
+	<script src="scripts/menu.js"></script>
+	
+</body>
+</html>

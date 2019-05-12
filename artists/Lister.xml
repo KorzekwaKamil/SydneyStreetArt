@@ -1,0 +1,105 @@
+<?xml-stylesheet type="text/xsl" href="data.xsl"?>
+<graffiti_list>
+  <graffiti id="Newtown_028_06">
+    <file_name id="Newtown_028_06_file_name">Newtown_028_06.jpg</file_name>
+    <full_path id="Newtown_028_06_full_path">photos\Newtown\Newtown_028_06.jpg</full_path>
+    <suburb id="Newtown_028_06_suburb">Newtown</suburb>
+    <date id="Newtown_028_06_date">02.09.2017</date>
+    <time id="Newtown_028_06_time">16:58</time>
+    <gps_lat id="Newtown_028_06_gps_lat">-33.8951151667</gps_lat>
+    <gps_lon id="Newtown_028_06_gps_lon">151.176899861</gps_lon>
+    <photographer id="Newtown_028_06_photographer">KK</photographer>
+    <status id="Newtown_028_06_status"/>
+    <title id="Newtown_028_06_title"/>
+    <artist id="Newtown_028_06_artist">Lister</artist>
+    <artist_link_1 id="Newtown_028_06_artist_link_1">https://www.instagram.com/anthonylister/</artist_link_1>
+    <description id="Newtown_028_06_description"/>
+    <height id="Newtown_028_06_height">576</height>
+    <width id="Newtown_028_06_width">1024</width>
+  </graffiti>
+  <graffiti id="Redfern_001">
+    <file_name id="Redfern_001_file_name">Redfern_001.jpg</file_name>
+    <full_path id="Redfern_001_full_path">photos\Redfern\Redfern_001.jpg</full_path>
+    <suburb id="Redfern_001_suburb">Redfern</suburb>
+    <date id="Redfern_001_date">19.03.2017</date>
+    <time id="Redfern_001_time">17:41</time>
+    <gps_lat id="Redfern_001_gps_lat">-33.8889358211</gps_lat>
+    <gps_lon id="Redfern_001_gps_lon">151.200208515</gps_lon>
+    <photographer id="Redfern_001_photographer">KK</photographer>
+    <status id="Redfern_001_status"/>
+    <title id="Redfern_001_title"/>
+    <artist id="Redfern_001_artist">Lister</artist>
+    <artist_link_1 id="Redfern_001_artist_link_1">https://www.instagram.com/anthonylister/</artist_link_1>
+    <description id="Redfern_001_description"/>
+    <height id="Redfern_001_height">1024</height>
+    <width id="Redfern_001_width">576</width>
+  </graffiti>
+  <graffiti id="SurryHills_013">
+    <file_name id="SurryHills_013_file_name">SurryHills_013.jpg</file_name>
+    <full_path id="SurryHills_013_full_path">photos\Surry Hills\SurryHills_013.jpg</full_path>
+    <suburb id="SurryHills_013_suburb">Surry Hills</suburb>
+    <date id="SurryHills_013_date">26.01.2018</date>
+    <time id="SurryHills_013_time">16:31</time>
+    <gps_lat id="SurryHills_013_gps_lat">-33.8800375556</gps_lat>
+    <gps_lon id="SurryHills_013_gps_lon">151.21524625</gps_lon>
+    <photographer id="SurryHills_013_photographer">KK</photographer>
+    <status id="SurryHills_013_status"/>
+    <title id="SurryHills_013_title"/>
+    <artist id="SurryHills_013_artist">Lister</artist>
+    <artist_link_1 id="SurryHills_013_artist_link_1">https://www.instagram.com/anthonylister/</artist_link_1>
+    <description id="SurryHills_013_description"/>
+    <height id="SurryHills_013_height">768</height>
+    <width id="SurryHills_013_width">1024</width>
+  </graffiti>
+  <graffiti id="SurryHills_014">
+    <file_name id="SurryHills_014_file_name">SurryHills_014.jpg</file_name>
+    <full_path id="SurryHills_014_full_path">photos\Surry Hills\SurryHills_014.jpg</full_path>
+    <suburb id="SurryHills_014_suburb">Surry Hills</suburb>
+    <date id="SurryHills_014_date">26.01.2018</date>
+    <time id="SurryHills_014_time">16:31</time>
+    <gps_lat id="SurryHills_014_gps_lat">-33.8799476944</gps_lat>
+    <gps_lon id="SurryHills_014_gps_lon">151.215335278</gps_lon>
+    <photographer id="SurryHills_014_photographer">KK</photographer>
+    <status id="SurryHills_014_status"/>
+    <title id="SurryHills_014_title"/>
+    <artist id="SurryHills_014_artist">Lister</artist>
+    <artist_link_1 id="SurryHills_014_artist_link_1">https://www.instagram.com/anthonylister/</artist_link_1>
+    <description id="SurryHills_014_description"/>
+    <height id="SurryHills_014_height">1024</height>
+    <width id="SurryHills_014_width">768</width>
+  </graffiti>
+  <graffiti id="SurryHills_015_02">
+    <file_name id="SurryHills_015_02_file_name">SurryHills_015_02.jpg</file_name>
+    <full_path id="SurryHills_015_02_full_path">photos\Surry Hills\SurryHills_015_02.jpg</full_path>
+    <suburb id="SurryHills_015_02_suburb">Surry Hills</suburb>
+    <date id="SurryHills_015_02_date">26.01.2018</date>
+    <time id="SurryHills_015_02_time">16:32</time>
+    <gps_lat id="SurryHills_015_02_gps_lat">-33.8804766389</gps_lat>
+    <gps_lon id="SurryHills_015_02_gps_lon">151.215592167</gps_lon>
+    <photographer id="SurryHills_015_02_photographer">KK</photographer>
+    <status id="SurryHills_015_02_status"/>
+    <title id="SurryHills_015_02_title"/>
+    <artist id="SurryHills_015_02_artist">Lister</artist>
+    <artist_link_1 id="SurryHills_015_02_artist_link_1">https://www.instagram.com/anthonylister/</artist_link_1>
+    <description id="SurryHills_015_02_description"/>
+    <height id="SurryHills_015_02_height">768</height>
+    <width id="SurryHills_015_02_width">1024</width>
+  </graffiti>
+  <graffiti id="SurryHills_016">
+    <file_name id="SurryHills_016_file_name">SurryHills_016.jpg</file_name>
+    <full_path id="SurryHills_016_full_path">photos\Surry Hills\SurryHills_016.jpg</full_path>
+    <suburb id="SurryHills_016_suburb">Surry Hills</suburb>
+    <date id="SurryHills_016_date">26.01.2018</date>
+    <time id="SurryHills_016_time">18:04</time>
+    <gps_lat id="SurryHills_016_gps_lat">-33.8830318333</gps_lat>
+    <gps_lon id="SurryHills_016_gps_lon">151.214596278</gps_lon>
+    <photographer id="SurryHills_016_photographer">KK</photographer>
+    <status id="SurryHills_016_status"/>
+    <title id="SurryHills_016_title"/>
+    <artist id="SurryHills_016_artist">Lister</artist>
+    <artist_link_1 id="SurryHills_016_artist_link_1">https://www.instagram.com/anthonylister/</artist_link_1>
+    <description id="SurryHills_016_description"/>
+    <height id="SurryHills_016_height">768</height>
+    <width id="SurryHills_016_width">1024</width>
+  </graffiti>
+</graffiti_list>

@@ -1,0 +1,9 @@
+<?xml-stylesheet type="text/xsl" href="data.xsl"?>
+<full_info>
+  <name>Fintan Magee</name>
+  <artist_link_1>http://www.fintanmagee.com/</artist_link_1>
+  <description>Bio: In preparation...</description>
+  <gps_lat>-33.901662</gps_lat>
+  <gps_lon>151.187104</gps_lon>
+  <gps_zoom>13</gps_zoom>
+</full_info>

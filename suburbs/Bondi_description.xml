@@ -1,0 +1,8 @@
+<?xml-stylesheet type="text/xsl" href="data.xsl"?>
+<full_info>
+  <name>Bondi</name>
+  <description>If you have heard of one Sydney suburb, it’s probably Bondi. No other beach quite represents the swim and surf culture Sydney has become so synonymous with. Whether it is unparalleled views of the Pacific, buzzing beach-bar culture or skate boarding along its distinctly graffitied promenade, Bondi has something for everyone.</description>
+  <gps_lat>-33.8950400</gps_lat>
+  <gps_lon>151.2742000</gps_lon>
+  <gps_zoom>15</gps_zoom>
+</full_info>

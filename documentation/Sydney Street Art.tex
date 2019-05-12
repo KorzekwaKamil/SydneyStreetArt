@@ -1,0 +1,96 @@
+\documentclass[pra,aps,onecolumn,letter,nopacs,nofootinbib,longbibliography,notitlepage]{revtex4-1}
+
+\usepackage{graphicx,color,amsmath,amsfonts,enumerate,amsthm,amssymb,mathtools,enumitem,thmtools,hyperref,subfigure,mathdots,enumitem,centernot,bm,soul,bbm}
+\usepackage{multirow}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+
+
+
+%KK ABBREVIATIONS
+\newcommand{\kk}[1]{{\color{red}#1}}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\definecolor{ppblue}{RGB}{46,117,182}
+\definecolor{ppred}{RGB}{197, 90, 17}
+
+\newcommand{\red}[1]{{\color{red}#1}}
+\newcommand{\blue}[1]{{\color{blue}#1}}
+
+%END OF KK ABBREVIATIONS
+
+%START THEOREMS/DEFINITIONS
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{conj}[thm]{Conjecture}
+\theoremstyle{definition}
+\newtheorem{defn}[thm]{Definition}
+\newtheorem{rmk}[thm]{Remark}
+%END THEOREMS/DEFINITIONS
+
+\begin{document}
+
+\title{Sydney Street Art - documentation}
+\author{Kamil Korzekwa}
+\email{korzekwa.kamil@gmail.com}
+
+\maketitle
+
+\section{Data}	
+
+All pictures of the graffitis are stored in \texttt{photos} folder within subfolders named after the suburb the graffiti is located in. The file name pattern is \texttt{suburb\_name+location\_number+image\_number}, i.e. pictures with very similar GPS coordinates have the same location number and differ only by the image number (on the map only one marker is shown and all pictures with a given location number correspond to it).
+
+The information about all graffitis is stored in \texttt{data.xml} file within \texttt{data} folder. Each graffiti is a separate \texttt{xml} element \texttt{<graffiti>} with information encoded in the values of its subelements (fields), e.g. \texttt{<file\_name>} or \texttt{<artist>}. The information about graffitis can be divided into two categories:
+\begin{enumerate}
+	\item \emph{Automatic:} Information about graffitis that can be automatically retrieved by the software from \texttt{.jpg} files (e.g. GPS coordinates) and the folder structure (e.g. suburb name if graffitis are properly grouped within suburb subfolders).
+	\item \emph{Manual:} Information about graffitis that requires manual input (e.g. artist's name).
+\end{enumerate}
+Tools designed to deal with automatic information are stored in \texttt{software} folder, and the ones to deal with manual information in the \texttt{data} folder. 
+
+Besides \texttt{data.xml} the information is also stored in folders \texttt{artists} and \texttt{suburbs}. Each of the folder contains two files per suburb/artist: \texttt{name.xml} and \texttt{name\_description.xml}. The first one is just a smaller copy of \texttt{data.xml} containing only graffitis relevant for the given artist/suburb. The second one contains longer descriptive information about the artist/suburb.
+ 
+\subsection{Automatic information}
+
+Tools used to deal with automatic data are located in the folder \texttt{software} and are written using \texttt{python}. The central program is \texttt{extract\_data.py}. It scans over all \texttt{.jpg} files within a given folder (\texttt{photos} by default) and extracts the following information: file name, full path to the picture, suburb (from the name of the  subfolder within \texttt{photos} folder), date and time the photo was taken, GPS coordinates, height and width of the photo. It then saves the information to \texttt{data.xml}, also adding the field \texttt{<photographer>} (by default set to 'KK', but can be changed each time a new batch of files from a given photographer is added) and empty fields: status, title, artist, link to artist's website and description. These fields need to be modified manually. Each time the program is run, before proceeding it makes a copy of the current data in the \texttt{archive} subfolder.
+
+There are also three small auxiliary programs to quickly modify all the entries in the database: 
+\begin{itemize}
+	\item \texttt{modify\_data\_add\_field.py}: adds a new field to each \texttt{<graffiti>} element (if one wants to store new kinds of information).
+	\item \texttt{modify\_data\_add\_id.py}: adds id to every field of each element according to a pattern \texttt{file\_name+field\_name}.
+	\item \texttt{modify\_data\_change\_names.py}: changes the file names of all \texttt{<graffiti>} element according to a pattern \texttt{suburb\_name+location\_number+image\_number}.
+\end{itemize}
+These programs can be easily modified to serve new purposes.
+
+There are also two programs that create new smaller databases based on \texttt{data.xml}, but which contain only information about graffitis relevant for a given artist/suburb:
+\begin{itemize}
+	\item \texttt{data\_artist.py}
+	\item \texttt{data\_suburb.py}
+\end{itemize}
+
+Finally, there is a file \texttt{summary.py} that creates a file \texttt{summary.txt} with information about the number of graffitis for each artist/suburb.
+
+\subsection{Manual information}
+
+The remaining information has to be entered manually. This includes status (meant to be left empty, or set to 'Removed' when the graffiti no longer exists, so on the website it will be rendered in sepia mode), artist and link to artist's website. If multiple artists created a given graffiti then their names should be separated by '/' symbol. Also, for every artist added in that way one has to manually create a new field \texttt{<artist\_link\_n>}, where \texttt{n} goes from 2 to the total number of artists added. The link fields may be left empty, but they necessarily must exist. This is the part that has to be done on the level of the text editor, as the \texttt{xsl} web browser tool described below does not allow for this (yet).
+
+One could enter the information using a simple tool like \texttt{Notepad++}. However, it is very inconvenient to enter the missing data while not seeing the graffiti picture. Therefore, a special stylesheet file \texttt{data.xsl} was written that allows one to display \texttt{data.xml} as a webpage, i.e. all information about all graffitis is displayed in the web browser alongside their photos. One can sort the graffitis according to artist/suburb/etc. by modifying one line of code in \texttt{data.xsl} (the place is indicated in the comments). Moreover, the information is displayed in the form of input lines, so that it can be modified. After modifying the data one has to click the 'Submit' button (once for each modified graffiti), which runs a \texttt{PHP} script that modifies the file \texttt{data.xml}. 
+
+Since the input and modification of the files is done using \texttt{PHP}, one needs to run it on a server. The easiest way is to use \texttt{Apache} software within \texttt{XAMPP} package that imitates a server on an off-line machine. More precisely, one has to first install it, then set the root folder to be the same as the \texttt{data} subfolder of the website folder, and finally write \texttt{localhost} in the browser address bar. The only non-trivial thing is setting the root folder: one needs to go to \texttt{xampp/apache/conf} folder and open \texttt{httdp.conf} file. Then, inside this file, one has to change the path \texttt{xampp/htdocs} to the website's path.
+
+	
+\section{Webpage}
+
+\subsection{General structure}
+
+\subsubsection{List of scripts}
+
+\subsection{Google maps}
+
+\subsection{XML database}
+
+\subsection{Responsive screen}
+
+\end{document}

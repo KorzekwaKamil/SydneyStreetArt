@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="full_page">
 <head>
 
 	<!-- Global Site Tag (gtag.js) - Google Analytics -->
@@ -10,19 +10,20 @@
   		gtag('js', new Date());
   		gtag('config', 'UA-106186455-1');
 	</script>
-	
+
 	<title>Sydney Street Art</title>
 	
 	<meta name="title" content="Sydney Street Art">
-	<meta name="description" content="Explore Sydney street art using this online database with hundreds of geotagged graffitis around the city.">
-	<meta name="keywords" content="Sydney street art, street art, Sydney street-art, street-art, Sydney graffiti, graffiti, Sydney murals, murals">
+	<meta name="description" content="Explore Sydney street art using this online database with hundreds of geotagged graffitis, precisely marked on Google Maps within all major suburbs of the city.">
+	<meta name="keywords" content="Sydney street art, street art, Sydney street-art, street-art, Sydney graffiti, graffiti, Sydney murals, murals, street art maps, street art map, street-art maps, street-art map, graffiti maps, graffiti maps, Sydney graffiti map, Sydney street art map, Sydney street-art map">
 	<meta name="author" content="Kamil Korzekwa">
 	<meta name="language" content="English">
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 	<meta charset="utf-8">
 	
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 	
 	<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
@@ -43,38 +44,81 @@
 	<meta name="theme-color" content="#ffffff">
 </head>
 
-<body style="overflow:hidden">
-	
-	<header style="color:#000000">
-		<div style="display:table;height:100%;width:100%"><div style="display:table-cell;text-align:center;vertical-align:middle"><h1>sydney street art</h1></div></div>
+<body onload="spinner.stop()" onscroll="stick_menu('master_canvas')" onresize ="stick_menu('master_canvas')">
+
+	<header id="logo" class="w3-display-container w3-border-bottom w3-border-black" onclick="window.location.href='index.html'">
+		<h1 id="logo_text" class="w3-display-middle">S Y D N E Y&nbsp S T R E E T&nbsp A R T</h1>
 	</header>
+	
+	<div id="menu_canvas">
+		<div id="top_menu" class="w3-bar w3-dark-grey w3-bottombar w3-border-black w3-large">
+			<a id="link_map_large" href="index.html" class="w3-bar-item w3-button w3-red w3-hide-large w3-hide-medium" >Map</a>
+			<a id="link_map" href="index.html" class="w3-bar-item w3-button w3-hide-small w3-red" style="width:16%">Map</a>
+			<a id="link_artists" href="artists.html" class="w3-bar-item w3-button w3-hide-small" style="width:16%">Artists</a>
+			<a id="link_suburbs" href="suburbs.html" class="w3-bar-item w3-button w3-hide-small" style="width:16%">Suburbs</a>
+			<a id="link_artworks" href="artworks.html" class="w3-bar-item w3-button w3-hide-small" style="width:16%">Artworks</a>
+			<a id="link_about" href="about.html" class="w3-bar-item w3-button w3-hide-small" style="width:16%">About</a>
+			<a id="link_fb" href="https://www.facebook.com/SydneyGraffitis/" target="_blank" style="font-family:facebook_font;width:10%" class="w3-bar-item w3-button w3-hide-small">fb</a>
+			<a id="link_insta" href="https://www.instagram.com/sydneygraffitis/" target="_blank" style="font-family:facebook_font;width:10%" class="w3-bar-item w3-button w3-hide-small">Insta</a>
+            <a id="link_expand" href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="expand_menu()">&#9776;</a>
+            <a id="link_top_page" href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="back_to_top()">&#8679;</a>
+		</div>	
+		<div id="top_menu_expanded" class="w3-bar-block w3-dark-grey w3-hide w3-hide-large w3-hide-medium w3-large">
+			<a id="link_artists_expanded" href="artists.html" class="w3-bar-item w3-button">Artists</a>
+			<a id="link_suburbs_expanded" href="suburbs.html" class="w3-bar-item w3-button">Suburbs</a>
+			<a id="link_artworks_expanded" href="artworks.html" class="w3-bar-item w3-button">Artworks</a>
+			<a id="link_about_expanded" href="about.html" class="w3-bar-item w3-button">About</a>
+			<a id="link_fb_expanded" href="https://www.facebook.com/SydneyGraffitis/" target="_blank" style="font-family:facebook_font" class="w3-bar-item w3-button">fb</a>
+			<a id="link_insta_expanded" href="https://www.instagram.com/sydneygraffitis/" target="_blank" style="font-family:facebook_font" class="w3-bar-item w3-button w3-bottombar w3-border-black">Insta</a>
+		</div>
+	</div>
+
+	<div id="master_canvas" class="w3-row-padding w3-margin-top after_menu">
+
+		<div id="graffiti_canvas" class="w3-col m7 l7 w3-display-container canvas_main">
+		
+			<div class="w3-display-right graffiti_buttons" style="right:2.5%;visibility:hidden;">
+				<img id="next_button" src="graphics/next.png" onclick="next_image()">
+			</div>
+			
+			<div class="w3-display-left graffiti_buttons" style="left:2.5%;visibility:hidden;">
+				<img id="previous_button" src="graphics/previous.png" onclick="previous_image()">
+			</div>
+			
+			<div id="info_text" class="w3-display-middle">Click on location to see street art nearby</div>
+			
+			<img id="graffiti" class="w3-display-middle" src="" onload="reset_filter()" onmouseenter="show_description()" onmouseout="hide_description()">
+			
+			<div id="graffiti_description" class="w3-display-middle" style="visibility:hidden;" onmouseenter="show_description()" onmouseout="hide_description()"></div>  
+			
+		</div>
+		
+		<div id="map_canvas" class="w3-col m5 l5 canvas_main">
+			<button id="map_group_button" style="top:100;px;right:8px;z-index:10">&nbsp Group &nbsp </button>
+		</div>
+		
+	</div>
+	
+
+	<script src="scripts/spin.js"></script>
+	<script>
+        var spinner=new Spinner({color:'#fff',scale:3, lines: 12}).spin(document.getElementById("full_page"));
+    </script>
+	<script src="scripts/menu.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_BUk98XAiUAWE83JtAYyOgsXPG6uj3Jg"></script>	
+	<script src="scripts/load_map.js"></script> 
+	<script src="scripts/navigate_images.js"></script> 
 	
 	<script>
 		var data_xml = new XMLHttpRequest();
 		data_xml.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) {
-				document.getElementById('main_frame').src="ssa_by_location.html";
-				document.getElementById('link_location').href="ssa_by_location.html";
-				document.getElementById('link_art').href="ssa_by_art.html";
-				document.getElementById('link_about').href="ssa_about.html";
-			};
+				load_map();
+			}
 		}
 		data_xml.open("GET", "data/data.xml", true);
 		data_xml.send();
 	</script>
 	
-	<div id="top_menu">
-		<table class="top_menu_links">
-		<tr>
-			<th><a id="link_location" href="" target="main_frame">Map view</a></th>
-			<th><a id="link_art" href="" target="main_frame">Artwork view</a></th>
-			<th><a id="link_about" href="" target="main_frame">About</a></th> 
-            <th><a id="link_fb" href="https://www.facebook.com/SydneyGraffitis/" target="_blank" style="font-family:facebook_font">facebook</a></th>
-		</tr>
-		</table>
-	</div>
-	
-	<iframe src="" id="main_frame" name="main_frame"></iframe>
-    
-</body>
+	</body>
 </html>
